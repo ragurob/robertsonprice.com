@@ -183,6 +183,9 @@
         .hero-image-wrapper img {
             width: 100%; height: 100%;
             object-fit: cover;
+            filter: grayscale(100%) contrast(120%) brightness(105%);
+            mix-blend-mode: multiply;
+            opacity: 0.92;
         }
         .hero-image-placeholder {
             width: 100%; height: 100%;
@@ -727,7 +730,7 @@
             <div class="hero-grid">
                 <div class="hero-content">
                     <p class="hero-label fade-in">Founder &amp; CEO</p>
-                    <h1 class="hero-headline fade-in stagger-1">I've been building on<br>the next wave since<br>before it breaks.</h1>
+                    <h1 class="hero-headline fade-in stagger-1">Search, video, content,<br>commerce, AI. I've built<br>through them all.</h1>
                     <p class="hero-bio fade-in stagger-2">I've spent 25 years building companies at the frontier of internet technology — from early search and streaming video to content networks and e-commerce. I've been part of teams that shaped how people use the web. Today I run <a href="https://ragu.ai" class="subtle-link">Ragu.AI</a> and build AI-native products across <a href="https://tezit.com" class="subtle-link">communication</a>, <a href="https://nourova.com" class="subtle-link">biometrics</a>, and <a href="https://mypa.chat" class="subtle-link">personal AI</a>.</p>
                     <a href="#ventures" class="hero-cta fade-in stagger-3">
                         See what I'm building
@@ -736,8 +739,7 @@
                 </div>
                 <div class="hero-image fade-in stagger-2">
                     <div class="hero-image-wrapper">
-                        <!-- Replace this div with: <img src="robertson.jpg" alt="Robertson Price"> -->
-                        <div class="hero-image-placeholder">Photo</div>
+                        <img src="robertson.jpg" alt="Robertson Price">
                     </div>
                 </div>
             </div>
