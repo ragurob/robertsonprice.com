@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+const posts = allPosts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+function excerpt(body: string, length = 150): string {
+  const text = body
+    .replace(/^#+\s+.*/gm, '')
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+    .replace(/[*_`#>]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text.length > length ? text.slice(0, length).replace(/\s+\S*$/, '') + '…' : text;
+}
+---
+<Layout title="Writing — Robertson Price" description="Notes on AI, building companies, and what happens at the frontier.">
+<style>
+  .blog-page { padding-top: calc(80px + var(--section-gap)); padding-bottom: var(--section-gap); }
+  .blog-header { max-width: 640px; margin-bottom: clamp(40px, 5vw, 64px); }
+  .blog-header h1 { font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; line-height: 1.25; letter-spacing: -0.02em; margin-bottom: 16px; }
+  .archive-note { font-size: 0.92rem; line-height: 1.75; color: var(--color-text-secondary); border-left: 2px solid var(--color-border); padding-left: 20px; margin-top: 24px; }
+  .post-list { display: flex; flex-direction: column; gap: 0; }
+  .post-item { display: grid; grid-template-columns: 100px 1fr; gap: 32px; align-items: start; padding: 28px 0; border-bottom: 1px solid var(--color-border-light); transition: all 0.2s ease; }
+  .post-item:first-child { border-top: 1px solid var(--color-border-light); }
+  .post-item:hover { color: var(--color-text); }
+  .post-date { font-size: 0.82rem; color: var(--color-text-tertiary); font-variant-numeric: tabular-nums; padding-top: 3px; white-space: nowrap; }
+  .post-content h2 { font-size: 1rem; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 8px; line-height: 1.4; transition: color 0.2s ease; }
+  .post-item:hover .post-content h2 { color: var(--color-text); }
+  .post-excerpt { font-size: 0.88rem; line-height: 1.65; color: var(--color-text-secondary); }
+
+  @media (max-width: 640px) {
+    .post-item { grid-template-columns: 1fr; gap: 6px; }
+    .post-date { font-size: 0.78rem; }
+  }
+</style>
+<div class="blog-page">
+  <div class="container">
+    <div class="blog-header">
+      <h1>Writing</h1>
+      <p class="archive-note">Since 2021, I've shared real-time analysis and commentary on crypto markets and artificial intelligence with a private community of several hundred people. These posts are adapted from that running commentary. The dates reflect when the original thinking was shared.</p>
+    </div>
+    <div class="post-list">
+      {posts.map(post => (
+        <a href={`/blog/${post.id}`} class="post-item">
+          <span class="post-date">
+            {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+          </span>
+          <div class="post-content">
+            <h2>{post.data.title}</h2>
+            <p class="post-excerpt">{excerpt(post.body)}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</div>
+</Layout>
