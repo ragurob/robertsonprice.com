@@ -21,6 +21,14 @@ const { title, description = "Robertson Price is a serial founder and CEO who ha
   {ogImage && <meta property="og:image" content={`https://robertsonprice.com${ogImage}`} />}
   {ogImage && <meta name="twitter:image" content={`https://robertsonprice.com${ogImage}`} />}
   <meta name="google-site-verification" content="ess-ilLbZKi-5QqEXnwjF3BbaAd--j7ILQfwsi9LqOY" />
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWK26BSC88"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QWK26BSC88');
+  </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
