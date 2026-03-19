@@ -1,5 +1,5 @@
 ---
-title: "OpenAI DevDay Just Supercharged My AI Assistant — Here's Why I'm Excited"
+title: "OpenAI DevDay Just Supercharged My AI Assistant"
 date: 2023-11-06
 category: "AI Tools & Products"
 ---

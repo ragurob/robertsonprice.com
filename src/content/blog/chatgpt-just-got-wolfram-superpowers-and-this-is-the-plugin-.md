@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Just Got Wolfram Superpowers — And This Is the Plugin That Actually Matters"
+title: "ChatGPT Just Got Wolfram Superpowers"
 date: 2023-04-12
 category: "AI Tools & Products"
 slug: "chatgpt-just-got-wolfram-superpowers-and-this-is-the-plugin-that-actually-matters"

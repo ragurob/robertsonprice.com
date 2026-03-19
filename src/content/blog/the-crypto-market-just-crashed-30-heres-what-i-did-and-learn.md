@@ -1,5 +1,5 @@
 ---
-title: "The Crypto Market Just Crashed 30% — Here's What I Did and Learned"
+title: "The Crypto Market Just Crashed 30% — What I Did and Learned"
 date: 2021-05-19
 category: "Crypto & DeFi"
 ---

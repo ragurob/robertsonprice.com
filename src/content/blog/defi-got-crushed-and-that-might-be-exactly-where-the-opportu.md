@@ -1,5 +1,5 @@
 ---
-title: "DeFi Got Crushed — And That Might Be Exactly Where the Opportunity Is"
+title: "DeFi Got Crushed — That's Exactly Where the Opportunity Is"
 date: 2021-05-24
 category: "Crypto & DeFi"
 ---

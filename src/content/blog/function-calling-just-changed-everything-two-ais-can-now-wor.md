@@ -1,5 +1,5 @@
 ---
-title: "Function Calling Just Changed Everything — Two AIs Can Now Work Together and Take Action"
+title: "Function Calling — Two AIs Can Now Work Together and Take Action"
 date: 2023-06-17
 category: "AI Infrastructure"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "The Hidden Leverage Problem in DeFi Could Trigger a Cascade Nobody Sees Coming"
+title: "The Hidden Leverage Problem in DeFi Could Trigger a Cascade"
 date: 2021-09-21
 category: "Crypto & DeFi"
 slug: "the-hidden-leverage-problem-in-defi-could-trigger-a-cascade-nobody-sees-coming"

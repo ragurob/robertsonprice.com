@@ -1,5 +1,5 @@
 ---
-title: "Why I Think BNB Will Catch Ethereum — And Why PancakeSwap Is the Key"
+title: "Why BNB Will Catch Ethereum — PancakeSwap Is the Key"
 date: 2021-04-27
 category: "Crypto & DeFi"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "I Stress-Tested Claude Code for a Full Day. Here's What I Found."
+title: "I Stress-Tested Claude Code for a Full Day"
 date: 2026-01-14
 category: "AI Tools & Products"
 ---

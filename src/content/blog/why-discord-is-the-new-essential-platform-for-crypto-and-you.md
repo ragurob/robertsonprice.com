@@ -1,5 +1,5 @@
 ---
-title: "Why Discord Is the New Essential Platform for Crypto — And You Should Learn It Now"
+title: "Why Discord Is the Essential Platform for Crypto"
 date: 2021-11-04
 category: "Crypto & DeFi"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Now Does Text AND Images — And Getting Access Just Got Way Easier"
+title: "ChatGPT Now Does Text and Images — Access Just Got Way Easier"
 date: 2023-01-05
 category: "AI Tools & Products"
 ---

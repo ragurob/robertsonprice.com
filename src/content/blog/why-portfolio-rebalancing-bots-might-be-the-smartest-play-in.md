@@ -1,5 +1,5 @@
 ---
-title: "Why Portfolio Rebalancing Bots Might Be the Smartest Play in Crypto Right Now"
+title: "Why Portfolio Rebalancing Bots Are the Smartest Play in Crypto"
 date: 2021-11-03
 category: "Crypto & DeFi"
 ---

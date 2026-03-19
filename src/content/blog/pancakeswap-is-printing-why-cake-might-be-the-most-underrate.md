@@ -1,5 +1,5 @@
 ---
-title: "PancakeSwap Is Printing — Why CAKE Might Be the Most Underrated DeFi Play Right Now"
+title: "PancakeSwap Is Printing — CAKE Is the Most Underrated DeFi Play"
 date: 2021-08-06
 category: "Crypto & DeFi"
 ---

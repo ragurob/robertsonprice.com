@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Can Now Browse, Shop, and Act on Your Behalf — And the Speed Is Terrifying"
+title: "ChatGPT Can Now Browse, Shop, and Act on Your Behalf"
 date: 2023-03-24
 category: "AI Tools & Products"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Why AI Chatbots Still Can't Close a Sale — And the Hybrid Fix That Might Actually Work"
+title: "Why AI Chatbots Still Can't Close a Sale — The Hybrid Fix"
 date: 2023-06-22
 category: "AI Strategy"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Zero Trading Fees, 30 Bots, and Why GBP Pairs Are My Secret Weapon Right Now"
+title: "Zero Trading Fees, 30 Bots, and Why GBP Pairs Are My Secret Weapon"
 date: 2021-02-10
 category: "Crypto & DeFi"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Stanford Just Built a ChatGPT Clone for $600 — And That Changes the AI Cost Equation"
+title: "Stanford Just Built a ChatGPT Clone for $600"
 date: 2023-03-23
 category: "AI Tools & Products"
 ---

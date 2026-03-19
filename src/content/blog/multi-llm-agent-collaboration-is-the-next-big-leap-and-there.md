@@ -1,5 +1,5 @@
 ---
-title: "Multi-LLM Agent Collaboration Is the Next Big Leap — And There's Already a Paper for It"
+title: "Multi-LLM Agent Collaboration Is the Next Big Leap"
 date: 2023-06-14
 category: "AI Infrastructure"
 ---

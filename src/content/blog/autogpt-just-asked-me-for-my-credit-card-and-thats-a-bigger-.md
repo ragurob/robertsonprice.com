@@ -1,5 +1,5 @@
 ---
-title: "AutoGPT Just Asked Me for My Credit Card — And That's a Bigger Deal Than You Think"
+title: "AutoGPT Just Asked Me for My Credit Card"
 date: 2023-04-15
 category: "AI Tools & Products"
 slug: "autogpt-just-asked-me-for-my-credit-card-and-thats-a-bigger-deal-than-you-think"

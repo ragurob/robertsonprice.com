@@ -1,5 +1,5 @@
 ---
-title: "Vector Databases Are the Infrastructure Play Nobody's Watching"
+title: "Vector Databases Are the Infrastructure Play"
 date: 2023-06-19
 category: "AI Infrastructure"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Leveraged Yield Farming on Alpaca Finance — Why I Think This Is DeFi's Best Kept Secret"
+title: "Leveraged Yield Farming on Alpaca Finance — DeFi's Best Kept Secret"
 date: 2021-07-30
 category: "Crypto & DeFi"
 ---

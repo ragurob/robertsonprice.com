@@ -1,5 +1,5 @@
 ---
-title: "I Finally Tried Polygon — And I Think It Changes the DeFi Playbook Entirely"
+title: "I Finally Tried Polygon — It Changes the DeFi Playbook"
 date: 2021-06-25
 category: "Crypto & DeFi"
 ---

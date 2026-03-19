@@ -1,5 +1,5 @@
 ---
-title: "We Built a PDF-to-AI Engine With Unlimited Memory — Here's What We Learned"
+title: "We Built a PDF-to-AI Engine With Unlimited Memory"
 date: 2023-06-02
 category: "AI Infrastructure"
 ---

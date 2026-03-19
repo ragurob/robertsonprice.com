@@ -1,5 +1,5 @@
 ---
-title: "Silicon Valley Bank Just Collapsed — And the Bailout Debate Is Already Missing the Point"
+title: "Silicon Valley Bank Just Collapsed — The Bailout Debate Is Missing the Point"
 date: 2023-03-12
 category: "AI Strategy"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Google Bard Is Actually Pretty Good at One Thing — And It's Not What You'd Expect"
+title: "Google Bard Is Actually Good at One Thing"
 date: 2023-03-22
 category: "AI Tools & Products"
 ---

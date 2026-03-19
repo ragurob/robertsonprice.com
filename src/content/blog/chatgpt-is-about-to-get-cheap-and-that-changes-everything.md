@@ -1,5 +1,5 @@
 ---
-title: "ChatGPT Is About to Get Cheap — And That Changes Everything"
+title: "ChatGPT Is About to Get Cheap"
 date: 2023-02-23
 category: "AI Tools & Products"
 ---

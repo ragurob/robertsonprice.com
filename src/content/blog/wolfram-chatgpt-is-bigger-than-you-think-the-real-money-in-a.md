@@ -1,5 +1,5 @@
 ---
-title: "Wolfram + ChatGPT Is Bigger Than You Think — The Real Money in AI Plugins"
+title: "Wolfram + ChatGPT — The Real Money in AI Plugins"
 date: 2023-04-13
 category: "AI Tools & Products"
 ---

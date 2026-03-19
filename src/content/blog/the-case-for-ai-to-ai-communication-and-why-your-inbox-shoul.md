@@ -1,5 +1,5 @@
 ---
-title: "The Case for AI-to-AI Communication (And Why Your Inbox Should Be Off-Limits)"
+title: "The Case for AI-to-AI Communication"
 date: 2026-02-23
 category: "AI Strategy"
 ---

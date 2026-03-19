@@ -1,5 +1,5 @@
 ---
-title: "AI Avatars Are Getting Scary Good — And Way Faster Than Anyone Expected"
+title: "AI Avatars Are Getting Scary Good — Faster Than Anyone Expected"
 date: 2023-01-24
 category: "AI Tools & Products"
 ---

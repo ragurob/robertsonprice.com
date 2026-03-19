@@ -1,5 +1,5 @@
 ---
-title: "China's Crypto Crackdown Is Back — And This Time It Feels Different"
+title: "China's Crypto Crackdown Is Back — This Time Feels Different"
 date: 2021-05-21
 category: "Crypto & DeFi"
 ---

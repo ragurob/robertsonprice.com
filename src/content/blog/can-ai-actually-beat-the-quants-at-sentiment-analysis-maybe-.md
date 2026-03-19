@@ -1,5 +1,5 @@
 ---
-title: "Can AI Actually Beat the Quants at Sentiment Analysis? Maybe — But Not How You Think"
+title: "Can AI Beat the Quants at Sentiment Analysis?"
 date: 2023-07-27
 category: "AI Tools & Products"
 slug: "can-ai-actually-beat-the-quants-at-sentiment-analysis-maybe-but-not-how-you-think"

@@ -1,5 +1,5 @@
 ---
-title: "Knowledge Ingestion Is the Killer AI App Nobody's Talking About"
+title: "Knowledge Ingestion Is the Killer AI App"
 date: 2023-05-09
 category: "AI Infrastructure"
 ---

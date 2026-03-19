@@ -1,5 +1,5 @@
 ---
-title: "The Best DeFi Portfolio Trackers — And Where I'm Putting Money Right Now"
+title: "The Best DeFi Portfolio Trackers — Where I'm Putting Money"
 date: 2021-07-23
 category: "Crypto & DeFi"
 slug: "the-best-defi-portfolio-trackers-and-where-im-putting-money-right-now"

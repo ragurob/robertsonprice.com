@@ -1,5 +1,5 @@
 ---
-title: "I Spent Real Time with AI Art and Music Tools — Here's What I Found"
+title: "I Spent Real Time with AI Art and Music Tools"
 date: 2022-12-20
 category: "AI Tools & Products"
 ---

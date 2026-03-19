@@ -1,5 +1,5 @@
 ---
-title: "I Just Gave AutoGPT a Real Job — Build a Global Museum Index. Here's What Happened."
+title: "I Gave AutoGPT a Real Job: Build a Global Museum Index"
 date: 2023-04-14
 category: "AI Tools & Products"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "AI Coding Agents Are Getting Scary Good — And I Mean That as a Compliment"
+title: "AI Coding Agents Are Getting Scary Good"
 date: 2026-01-25
 category: "AI Strategy"
 ---

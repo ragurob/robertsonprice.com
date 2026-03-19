@@ -1,5 +1,5 @@
 ---
-title: "I'm Building Websites with AI in Hours — Here's What's Actually Working"
+title: "I'm Building Websites with AI in Hours — What's Actually Working"
 date: 2023-02-23
 category: "Building & Shipping"
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Gold Is Losing Its Story — Here's What Replaces It"
+title: "Gold Is Losing Its Story"
 date: 2021-11-06
 category: "Crypto & DeFi"
 ---

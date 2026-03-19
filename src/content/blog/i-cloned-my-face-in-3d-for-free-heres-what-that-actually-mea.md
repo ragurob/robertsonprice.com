@@ -1,5 +1,5 @@
 ---
-title: "I Cloned My Face in 3D for Free. Here's What That Actually Means."
+title: "I Cloned My Face in 3D for Free"
 date: 2023-04-19
 category: "AI Tools & Products"
 ---

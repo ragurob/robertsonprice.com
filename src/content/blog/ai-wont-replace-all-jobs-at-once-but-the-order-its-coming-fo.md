@@ -1,5 +1,5 @@
 ---
-title: "AI Won't Replace All Jobs at Once — But the Order It's Coming for Them Should Wake You Up"
+title: "AI Won't Replace All Jobs at Once — The Order It's Coming for Them Matters"
 date: 2023-05-28
 category: "AI Strategy"
 ---

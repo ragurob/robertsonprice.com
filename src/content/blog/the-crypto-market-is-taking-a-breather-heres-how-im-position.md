@@ -1,5 +1,5 @@
 ---
-title: "The Crypto Market Is Taking a Breather — Here's How I'm Positioning My Bots"
+title: "The Crypto Market Is Taking a Breather — How I'm Positioning My Bots"
 date: 2021-02-11
 category: "Crypto & DeFi"
 ---

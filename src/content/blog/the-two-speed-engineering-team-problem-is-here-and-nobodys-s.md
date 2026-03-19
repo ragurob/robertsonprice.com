@@ -1,5 +1,5 @@
 ---
-title: "The Two-Speed Engineering Team Problem Is Here — And Nobody's Solved It Yet"
+title: "The Two-Speed Engineering Team Problem Is Here"
 date: 2026-02-11
 category: "AI Strategy"
 ---

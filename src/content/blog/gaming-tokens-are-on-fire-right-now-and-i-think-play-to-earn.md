@@ -1,5 +1,5 @@
 ---
-title: "Gaming Tokens Are on Fire Right Now — And I Think Play-to-Earn Is Just Getting Started"
+title: "Gaming Tokens Are on Fire — Play-to-Earn Is Just Getting Started"
 date: 2021-07-28
 category: "Crypto & DeFi"
 ---

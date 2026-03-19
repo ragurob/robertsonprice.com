@@ -1,5 +1,5 @@
 ---
-title: "This WordPress Chatbot Plugin Uses Your Own Content — And It's a Glimpse of What's Coming"
+title: "This WordPress Chatbot Plugin Uses Your Own Content"
 date: 2023-02-27
 category: "AI Tools & Products"
 slug: "this-wordpress-chatbot-plugin-uses-your-own-content-and-its-a-glimpse-of-whats"

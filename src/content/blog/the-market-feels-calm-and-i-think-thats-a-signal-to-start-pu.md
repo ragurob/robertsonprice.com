@@ -1,5 +1,5 @@
 ---
-title: "The Market Feels Calm — And I Think That's a Signal to Start Pushing Chips Back In"
+title: "The Market Feels Calm — Time to Start Pushing Chips Back In"
 date: 2021-07-02
 category: "Crypto & DeFi"
 ---

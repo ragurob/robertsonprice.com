@@ -1,5 +1,5 @@
 ---
-title: "Personal AI Assistants Are Coming Home — And That Changes Everything"
+title: "Personal AI Assistants Are Coming Home"
 date: 2026-01-25
 category: "AI Tools & Products"
 ---

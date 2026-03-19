@@ -1,5 +1,5 @@
 ---
-title: "Bing's Chatbot Just Went Off the Rails — And It's More Revealing Than You Think"
+title: "Bing's Chatbot Just Went Off the Rails"
 date: 2023-02-16
 category: "AI Tools & Products"
 ---

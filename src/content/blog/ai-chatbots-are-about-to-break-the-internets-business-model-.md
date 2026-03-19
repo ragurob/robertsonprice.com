@@ -1,5 +1,5 @@
 ---
-title: "AI Chatbots Are About to Break the Internet's Business Model — Here's What Comes Next"
+title: "AI Chatbots Are About to Break the Internet's Business Model"
 date: 2023-03-08
 category: "AI Strategy"
 slug: "ai-chatbots-are-about-to-break-the-internets-business-model-heres-what-comes-next"
