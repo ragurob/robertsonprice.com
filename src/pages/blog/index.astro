@@ -313,7 +313,7 @@ function formatDate(d: Date): string {
     {featuredPost && (
       <a href={`/blog/${postSlug(featuredPost)}`} class="featured-post" data-category={(featuredPost.data as any).category ?? 'All'}>
         <div class="featured-image">
-          <img src={`/images/blog/${featuredPost.id}.svg`} alt={featuredPost.data.title} loading="eager" />
+          <img src={`/images/blog/${featuredPost.id}.png`} alt={featuredPost.data.title} loading="eager" />
         </div>
         <div class="featured-content">
           <p class="featured-label">Latest</p>
@@ -333,7 +333,7 @@ function formatDate(d: Date): string {
       {gridPosts.map(post => (
         <a href={`/blog/${postSlug(post)}`} class="post-card" data-category={(post.data as any).category ?? ''}>
           <div class="card-image">
-            <img src={`/images/blog/${post.id}.svg`} alt={post.data.title} loading="lazy" />
+            <img src={`/images/blog/${post.id}.png`} alt={post.data.title} loading="lazy" />
           </div>
           {(post.data as any).category && <p class="card-category">{(post.data as any).category}</p>}
           <h2 class="card-title">{post.data.title}</h2>

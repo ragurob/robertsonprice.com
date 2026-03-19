@@ -156,7 +156,7 @@ const pageNum = Number(page);
       {pagePosts.map((post: any) => (
         <a href={`/blog/${post.data.slug ?? post.id}`} class="post-card">
           <div class="card-image">
-            <img src={`/images/blog/${post.id}.svg`} alt={post.data.title} loading="lazy" />
+            <img src={`/images/blog/${post.id}.png`} alt={post.data.title} loading="lazy" />
           </div>
           <h2 class="card-title">{post.data.title}</h2>
           <p class="card-excerpt">{excerpt(post.body || '')}</p>

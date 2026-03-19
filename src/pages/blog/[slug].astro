@@ -42,7 +42,7 @@ function postSlug(p: any): string {
 
 const minutes = readingTime(post.body || '');
 const formattedDate = post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-const ogImage = `/images/blog/${post.id}.svg`;
+const ogImage = `/images/blog/${post.id}.png`;
 const currentSlug = postSlug(post);
 ---
 <Layout
@@ -419,7 +419,7 @@ const currentSlug = postSlug(post);
 
 <div class="post-page">
   <div class="post-hero">
-    <img src={`/images/blog/${post.id}.svg`} alt={post.data.title} loading="eager" />
+    <img src={`/images/blog/${post.id}.png`} alt={post.data.title} loading="eager" />
   </div>
 
   <div class="container">
@@ -516,7 +516,7 @@ const currentSlug = postSlug(post);
           {relatedPosts.map((p: any) => (
             <a href={`/blog/${postSlug(p)}`} class="related-card">
               <div class="related-img">
-                <img src={`/images/blog/${p.id}.svg`} alt={p.data.title} loading="lazy" />
+                <img src={`/images/blog/${p.id}.png`} alt={p.data.title} loading="lazy" />
               </div>
               <span class="related-title">{p.data.title}</span>
               <span class="related-date">{p.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
