@@ -1,6 +1,7 @@
 ---
 title: "AI Coding Agents Are Getting Scary Good — And I Mean That as a Compliment"
 date: 2026-01-25
+category: "AI Strategy"
 ---
 
 I've been deep in the weeds with AI coding agents this past week, and I need to talk about what's happening here. Because it's moving FAST — faster than most people realize.

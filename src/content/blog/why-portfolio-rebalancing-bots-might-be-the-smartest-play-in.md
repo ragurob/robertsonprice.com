@@ -1,6 +1,7 @@
 ---
 title: "Why Portfolio Rebalancing Bots Might Be the Smartest Play in Crypto Right Now"
 date: 2021-11-03
+category: "Crypto & DeFi"
 ---
 
 I've been thinking a lot about the hardest problem in crypto. It's not picking winners — honestly, most people with a bit of research and conviction can find coins that run. The hard part is knowing when to take profits and when to buy back in. And I'm becoming more and more convinced that automation is the answer.

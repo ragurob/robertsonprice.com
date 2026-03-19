@@ -1,6 +1,7 @@
 ---
 title: "The Math on Running Your Own AI: Why Local Inference Beats Cloud Subscriptions"
 date: 2026-02-13
+category: "AI Infrastructure"
 ---
 
 I've been thinking about this a lot lately, and the numbers are starting to speak for themselves.

@@ -1,6 +1,7 @@
 ---
 title: "Gemini 2.0 Experimental Advanced: Why Google's Context Window Changes Everything"
 date: 2025-01-04
+category: "AI Tools & Products"
 ---
 
 I've been spending time with Gemini 2.0 Experimental Advanced this week, and I need to talk about it.

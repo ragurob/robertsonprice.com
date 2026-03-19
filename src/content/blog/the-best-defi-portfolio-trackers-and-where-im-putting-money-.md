@@ -1,6 +1,8 @@
 ---
 title: "The Best DeFi Portfolio Trackers — And Where I'm Putting Money Right Now"
 date: 2021-07-23
+category: "Crypto & DeFi"
+slug: "the-best-defi-portfolio-trackers-and-where-im-putting-money-right-now"
 ---
 
 I've been deep in DeFi for a while now, and one thing that never stops being annoying is trying to figure out where all your money actually IS. You stake something on one protocol, LP on another, vault something on a third — and three weeks later you're opening twelve browser tabs trying to piece together your net position like some kind of financial archaeologist.

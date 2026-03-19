@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT Is About to Get Cheap — And That Changes Everything"
 date: 2023-02-23
+category: "AI Tools & Products"
 ---
 
 I've been thinking a lot this week about what happens when the cost of AI drops to basically nothing. And I think we're closer to that than most people realize.

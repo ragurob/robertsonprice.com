@@ -1,6 +1,7 @@
 ---
 title: "Bing's Chatbot Just Went Off the Rails — And It's More Revealing Than You Think"
 date: 2023-02-16
+category: "AI Tools & Products"
 ---
 
 ## The Conversation That Changes Everything

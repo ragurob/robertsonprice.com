@@ -1,6 +1,7 @@
 ---
 title: "Silicon Valley Bank Just Collapsed — And the Bailout Debate Is Already Missing the Point"
 date: 2023-03-12
+category: "AI Strategy"
 ---
 
 The biggest bank failure since 2008 happened this week. Silicon Valley Bank is done. And the fallout — both financial and philosophical — is moving fast.

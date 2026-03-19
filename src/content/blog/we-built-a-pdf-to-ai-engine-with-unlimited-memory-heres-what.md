@@ -1,6 +1,7 @@
 ---
 title: "We Built a PDF-to-AI Engine With Unlimited Memory — Here's What We Learned"
 date: 2023-06-02
+category: "AI Infrastructure"
 ---
 
 I've been thinking about knowledge ingestion as the killer AI app for a while now. This week, that idea stopped being theoretical.

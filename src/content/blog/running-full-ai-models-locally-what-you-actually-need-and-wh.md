@@ -1,6 +1,7 @@
 ---
 title: "Running Full AI Models Locally: What You Actually Need (And Whether It's Worth It)"
 date: 2026-02-13
+category: "AI Infrastructure"
 ---
 
 I've been digging into the local AI hardware question pretty deeply lately, and it's one of those topics where the answer is frustratingly — but honestly — "it depends."

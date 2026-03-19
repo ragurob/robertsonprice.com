@@ -1,6 +1,7 @@
 ---
 title: "I'm Building Websites with AI in Hours — Here's What's Actually Working"
 date: 2023-02-23
+category: "Building & Shipping"
 ---
 
 I've been pretty deep in the weeds on this lately, and I think it's worth sharing what I've found — because the gap between "AI can theoretically build websites" and "I'm actually launching sites with AI" has basically closed.

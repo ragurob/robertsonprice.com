@@ -7,7 +7,7 @@ const recentPosts = allPosts
   .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
   .slice(0, 3);
 ---
-<Layout title="Robertson Price — CEO, Builder, AI Strategist">
+<Layout title="Robertson Price — CEO, Builder, AI Strategist" ogImage="/robertson.jpg">
 <style>
   /* HERO */
   .hero { min-height: 100vh; display: flex; align-items: center; padding-top: 80px; }
@@ -26,6 +26,29 @@ const recentPosts = allPosts
   .hero-image-wrapper { aspect-ratio: 4/5; background: var(--color-border-light); border-radius: 12px; overflow: hidden; }
   .hero-image-wrapper img { width: 100%; height: 100%; object-fit: cover; }
   .hero-sketch { position: absolute; top: 20px; right: 20px; width: 120px; height: 120px; opacity: 0.25; pointer-events: none; }
+
+  /* SOCIAL PROOF */
+  .social-proof { background: var(--color-text); color: var(--color-bg); padding: clamp(48px, 6vw, 72px) 0; }
+  .social-proof-header { text-align: center; margin-bottom: clamp(36px, 4vw, 48px); }
+  .social-proof-label { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(250,250,249,0.5); margin-bottom: 10px; }
+  .social-proof-title { font-family: var(--font-serif); font-size: clamp(1.2rem, 2vw, 1.5rem); font-weight: 400; letter-spacing: -0.02em; opacity: 0.9; }
+  .proof-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: rgba(250,250,249,0.1); border: 1px solid rgba(250,250,249,0.1); border-radius: 8px; overflow: hidden; margin-bottom: 32px; }
+  .proof-card { background: var(--color-text); padding: clamp(20px, 2.5vw, 32px); }
+  .proof-company { font-size: 0.75rem; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(250,250,249,0.45); margin-bottom: 10px; }
+  .proof-metric { font-family: var(--font-serif); font-size: clamp(1.1rem, 1.8vw, 1.35rem); font-weight: 400; line-height: 1.3; letter-spacing: -0.01em; color: var(--color-bg); margin-bottom: 8px; }
+  .proof-detail { font-size: 0.82rem; line-height: 1.5; color: rgba(250,250,249,0.55); }
+  .proof-seen { text-align: center; font-size: 0.82rem; color: rgba(250,250,249,0.45); letter-spacing: 0.02em; }
+  .proof-seen strong { color: rgba(250,250,249,0.75); font-weight: 500; }
+
+  /* NEWSLETTER (homepage) */
+  .newsletter-hp { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 12px; padding: clamp(32px, 4vw, 48px); max-width: 560px; }
+  .newsletter-hp h3 { font-family: var(--font-serif); font-size: clamp(1.2rem, 2vw, 1.5rem); font-weight: 400; letter-spacing: -0.02em; margin-bottom: 8px; }
+  .newsletter-hp p { font-size: 0.9rem; line-height: 1.65; color: var(--color-text-secondary); margin-bottom: 20px; }
+  .newsletter-form { display: flex; gap: 10px; }
+  .newsletter-input { flex: 1; font-family: var(--font-sans); font-size: 0.9rem; padding: 11px 16px; border: 1px solid var(--color-border); border-radius: 6px; background: var(--color-bg); color: var(--color-text); outline: none; transition: border-color 0.2s ease; }
+  .newsletter-input:focus { border-color: var(--color-text); }
+  .newsletter-btn { font-family: var(--font-sans); font-size: 0.88rem; font-weight: 500; padding: 11px 20px; background: var(--color-accent); color: var(--color-bg); border: none; border-radius: 6px; cursor: pointer; white-space: nowrap; transition: background 0.2s ease; }
+  .newsletter-btn:hover { background: var(--color-accent-hover); }
 
   /* TRAJECTORY */
   .trajectory { background: var(--color-surface); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); }
@@ -121,8 +144,11 @@ const recentPosts = allPosts
     .advisory-grid { grid-template-columns: 1fr; }
     .ventures-grid { grid-template-columns: repeat(2, 1fr); }
     .media-grid { grid-template-columns: 1fr; }
+    .proof-grid { grid-template-columns: repeat(2, 1fr); }
   }
   @media (max-width: 640px) {
+    .proof-grid { grid-template-columns: 1fr; }
+    .newsletter-form { flex-direction: column; }
     .timeline::before { display: none; }
     .timeline-item { grid-template-columns: 1fr; gap: 4px; }
     .timeline-item::after { display: none; }
@@ -162,6 +188,49 @@ const recentPosts = allPosts
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<section class="social-proof">
+  <div class="container">
+    <div class="social-proof-header">
+      <p class="social-proof-label">Track Record</p>
+      <p class="social-proof-title">25+ Years Building Internet Companies</p>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-card">
+        <p class="proof-company">iWon.com</p>
+        <p class="proof-metric">$750M Acquisition</p>
+        <p class="proof-detail">Part of the team that drove 20% of Google's early search revenue</p>
+      </div>
+      <div class="proof-card">
+        <p class="proof-company">MyVideoDaily</p>
+        <p class="proof-metric">3M Views / Month</p>
+        <p class="proof-detail">Founded &amp; scaled — larger than Fox News + NBC streaming combined</p>
+      </div>
+      <div class="proof-card">
+        <p class="proof-company">Answers Network</p>
+        <p class="proof-metric">32M Monthly Visitors</p>
+        <p class="proof-detail">600 websites, 45 employees, 100% founder-owned</p>
+      </div>
+      <div class="proof-card">
+        <p class="proof-company">Rebates.com</p>
+        <p class="proof-metric">$500K / Month</p>
+        <p class="proof-detail">Founded, scaled paid marketing operation → acquired</p>
+      </div>
+      <div class="proof-card">
+        <p class="proof-company">Ragu.AI</p>
+        <p class="proof-metric">$55K+ MRR</p>
+        <p class="proof-detail">Enterprise AI infrastructure for luxury &amp; premium brands</p>
+      </div>
+      <div class="proof-card" style="display:flex;flex-direction:column;justify-content:center;">
+        <p class="proof-company">Media</p>
+        <p class="proof-metric">As Seen On</p>
+        <p class="proof-detail">ABC 6abc News — AI commentary &amp; technology analysis</p>
+      </div>
+    </div>
+    <p class="proof-seen">Building at the internet frontier since <strong>1996</strong></p>
   </div>
 </section>
 
@@ -244,6 +313,13 @@ const recentPosts = allPosts
         <div class="timeline-content">
           <h3>Content Networks &amp; Commerce</h3>
           <p>Built content networks and e-commerce operations at the moment when online commerce shifted from experiment to expectation. Moved merchandise, built audiences, ran operations.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in stagger-2">
+        <span class="timeline-year">2015</span>
+        <div class="timeline-content">
+          <h3>E-Commerce &amp; Performance Marketing</h3>
+          <p>Built <span class="timeline-accent">Rebates.com into a $500K/month paid marketing operation.</span> Learned what it means to run profitable customer acquisition at scale — every dollar measured, every channel optimized.</p>
         </div>
       </div>
       <div class="timeline-item fade-in stagger-2">
@@ -372,6 +448,20 @@ const recentPosts = allPosts
   </div>
 </section>
 
+<!-- NEWSLETTER (between Ventures and Writing) -->
+<section style="padding: clamp(48px, 6vw, 80px) 0; background: var(--color-surface); border-top: 1px solid var(--color-border);">
+  <div class="container">
+    <div class="newsletter-hp fade-in">
+      <h3>Get my weekly AI dispatch</h3>
+      <p>Real analysis from someone who's been building on the internet since 1996. Join 500+ founders and operators getting my take on AI, tools, and what's actually working.</p>
+      <form class="newsletter-form" action="#" method="POST">
+        <input class="newsletter-input" type="email" name="email" placeholder="you@company.com" required />
+        <button class="newsletter-btn" type="submit">Subscribe →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
 <!-- WRITING -->
 <section class="writing" id="writing">
   <div class="container">
@@ -388,12 +478,12 @@ const recentPosts = allPosts
           <line x1="54" y1="52" x2="58" y2="48" stroke="var(--color-sketch)" stroke-width="0.8"/>
         </svg>
       </div>
-      <h2 class="fade-in">Thinking out loud.</h2>
+      <h2 class="fade-in">Dispatches from the frontier.</h2>
       <p class="fade-in stagger-1">On building with AI, running companies, and what happens when you stop treating intelligence as a tool and start treating it as infrastructure.</p>
     </div>
     <div class="writing-list">
       {recentPosts.map((post, i) => (
-        <a href={`/blog/${post.id}`} class={`writing-item fade-in${i > 0 ? ` stagger-${i}` : ''}`}>
+        <a href={`/blog/${(post.data as any).slug ?? post.id}`} class={`writing-item fade-in${i > 0 ? ` stagger-${i}` : ''}`}>
           <span class="writing-date">{post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}</span>
           <span class="writing-title">{post.data.title}</span>
           <span class="writing-tag">Notes</span>
@@ -406,7 +496,7 @@ const recentPosts = allPosts
       </a>
     </div>
     <a href="/blog" class="writing-more fade-in">
-      All writing
+      All dispatches
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:14px;height:14px"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
     </a>
   </div>

@@ -1,6 +1,8 @@
 ---
 title: "El Salvador, Reddit Pumps, and Why This Fall Is Going to Mint People"
 date: 2021-09-07
+category: "Crypto & DeFi"
+slug: "el-salvador-reddit-pumps-and-why-this-fall-is-going-to-mint-people"
 ---
 
 Today's the day. El Salvador officially adopts Bitcoin as legal tender, and the internet is doing exactly what you'd expect — Reddit is organizing a mass buy of $30 in BTC to celebrate. At nearly $53K, it's a fun narrative. But here's what actually matters: every one of those $30 buys creates a new wallet address and pulls another person into the ecosystem. THAT is the real story.

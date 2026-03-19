@@ -1,6 +1,7 @@
 ---
 title: "The Gas Token Paradox: Why Bidding Up SOL and ADA Might Be Missing the Point"
 date: 2021-08-31
+category: "Crypto & DeFi"
 ---
 
 I've been thinking a lot about something that doesn't get enough attention in the current alt-L1 mania — and it's pretty fundamental.

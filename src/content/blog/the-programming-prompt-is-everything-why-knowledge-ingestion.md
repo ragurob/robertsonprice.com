@@ -1,6 +1,7 @@
 ---
 title: "The Programming Prompt Is Everything — Why Knowledge Ingestion Lives or Dies By It"
 date: 2023-06-07
+category: "AI Infrastructure"
 ---
 
 I've been saying for weeks that knowledge ingestion is the killer AI app nobody's talking about. Well, now I'm putting my money where my mouth is.

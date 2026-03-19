@@ -1,6 +1,7 @@
 ---
 title: "BNB Burns, $40K NFTs, and Why I'm Watching CAKE This October"
 date: 2021-09-30
+category: "Crypto & DeFi"
 ---
 
 I'm officially part of the bubble. I know it, and I bought in anyway.

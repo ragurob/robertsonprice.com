@@ -1,6 +1,7 @@
 ---
 title: "Function Calling Just Changed Everything — Two AIs Can Now Work Together and Take Action"
 date: 2023-06-17
+category: "AI Infrastructure"
 ---
 
 I'm just taking a moment to digest all the news from last week. And honestly, if you're building anything with AI right now, you should too — because the landscape shifted pretty significantly.

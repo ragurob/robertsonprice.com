@@ -1,6 +1,7 @@
 ---
 title: "Infinite Memory for AI — Pinecone, Vector Databases, and a GPT That Knows You"
 date: 2023-04-10
+category: "AI Infrastructure"
 ---
 
 I've been digging into something this week that genuinely has me excited — and I don't say that lightly, because most of what passes for "AI breakthroughs" right now is just incremental stuff dressed up in breathless headlines.

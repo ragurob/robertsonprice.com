@@ -1,6 +1,7 @@
 ---
 title: "OHM, $TIME, and Why DeFi 2.0 Has My Attention Right Now"
 date: 2021-11-08
+category: "Crypto & DeFi"
 ---
 
 Hey — it's been a pretty wild Monday morning in markets, and I want to talk about two things: the Elon Musk circus and, more importantly, the DeFi protocols that I think are genuinely reshaping how we think about treasury-backed crypto.

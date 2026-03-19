@@ -1,6 +1,7 @@
 ---
 title: "Zero Trading Fees, 30 Bots, and Why GBP Pairs Are My Secret Weapon Right Now"
 date: 2021-02-10
+category: "Crypto & DeFi"
 ---
 
 I've written before about my conservative crypto bot strategy and how mean reversion makes "buy the dip" actually work when you automate it. But this week I hit a milestone worth talking about — I'm currently running nearly 30 bots simultaneously, and a few recent discoveries have made the economics even better than I expected.

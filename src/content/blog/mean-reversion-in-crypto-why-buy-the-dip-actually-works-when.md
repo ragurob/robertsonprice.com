@@ -1,6 +1,7 @@
 ---
 title: "Mean Reversion in Crypto: Why \"Buy the Dip\" Actually Works When You Automate It"
 date: 2021-02-03
+category: "Crypto & DeFi"
 ---
 
 There's a phrase that gets thrown around a lot in crypto circles — "buy the dip." Most people say it like a meme. I treat it like a strategy. And after running automated bots through some pretty dramatic market swings, I'm more convinced than ever that mean reversion is the single most reliable edge in crypto right now.

@@ -1,6 +1,7 @@
 ---
 title: "OHM, TIME, and the Strange Logic of Protocol-Owned Liquidity"
 date: 2021-11-02
+category: "Crypto & DeFi"
 ---
 
 I've been staring at OHM for months now. Literally months. Trying to put my finger on exactly what it is, exactly why it works, and exactly why I can't stop thinking about it. I've failed to come up with a clean one-liner — and honestly, that might be the most bullish signal of all.

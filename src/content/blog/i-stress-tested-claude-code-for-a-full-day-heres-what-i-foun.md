@@ -1,6 +1,7 @@
 ---
 title: "I Stress-Tested Claude Code for a Full Day. Here's What I Found."
 date: 2026-01-14
+category: "AI Tools & Products"
 ---
 
 I don't say this lightly, but this might be the most important recommendation I've ever made here.

@@ -1,6 +1,7 @@
 ---
 title: "Why Crypto-Style Trading Doesn't Exist in Traditional Markets (And Whether It Ever Could)"
 date: 2021-01-29
+category: "Crypto & DeFi"
 ---
 
 This has been a WILD week for anyone paying attention to markets. Between the Robinhood situation and the broader chaos around retail trading, I've been thinking about something that's been bugging me for a while — why the mechanics that make crypto trading so accessible just don't exist in traditional stock markets.

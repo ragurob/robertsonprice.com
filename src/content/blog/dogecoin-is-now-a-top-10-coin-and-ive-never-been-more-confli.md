@@ -1,6 +1,7 @@
 ---
 title: "Dogecoin Is Now a Top 10 Coin and I've Never Been More Conflicted About Crypto"
 date: 2021-04-15
+category: "Crypto & DeFi"
 ---
 
 ## The Market Is on Fire — And That's Not Entirely a Good Thing

@@ -1,6 +1,7 @@
 ---
 title: "Buying the Dip, Sizing the Position, and Why El Salvador Actually Matters"
 date: 2021-09-08
+category: "Crypto & DeFi"
 ---
 
 ## The Wobble

@@ -1,6 +1,7 @@
 ---
 title: "Wolfram + ChatGPT Is Bigger Than You Think — The Real Money in AI Plugins"
 date: 2023-04-13
+category: "AI Tools & Products"
 ---
 
 I wrote last week about ChatGPT getting Wolfram superpowers, and I'll be honest — I undersold it. I was thinking about it as a cool integration, a way to make ChatGPT better at math and data. But I've been sitting with it for a few days now, and the implications are actually pretty massive.

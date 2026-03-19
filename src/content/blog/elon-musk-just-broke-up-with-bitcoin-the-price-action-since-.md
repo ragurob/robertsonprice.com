@@ -1,6 +1,8 @@
 ---
 title: "Elon Musk Just 'Broke Up' With Bitcoin — The Price Action Since Is Wild"
 date: 2021-06-04
+category: "Crypto & DeFi"
+slug: "elon-musk-just-broke-up-with-bitcoin-the-price-action-since-is-wild"
 ---
 
 There's a MarketWatch headline making the rounds today that pretty much sums up where we are: "Elon Musk breaks up with bitcoin — cryptic tweet has some crypto bulls fearing the worst." And yeah, the tweet was cryptic. A broken heart emoji and Bitcoin. That's it. That's what moves a trillion-dollar asset class now.

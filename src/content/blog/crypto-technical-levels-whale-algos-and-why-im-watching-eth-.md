@@ -1,6 +1,8 @@
 ---
 title: "Crypto Technical Levels, Whale Algos, and Why I'm Watching ETH Right Now"
 date: 2021-11-11
+category: "Crypto & DeFi"
+slug: "crypto-technical-levels-whale-algos-and-why-im-watching-eth-right-now"
 ---
 
 There's a lot happening in the crypto market this week, and I think it's worth stepping back from the noise to talk about what I'm actually seeing — and how I'm positioning around it.

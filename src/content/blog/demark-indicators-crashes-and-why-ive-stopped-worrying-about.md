@@ -1,6 +1,7 @@
 ---
 title: "DeMark Indicators, \"Crashes,\" and Why I've Stopped Worrying About Crypto Dips"
 date: 2021-08-25
+category: "Crypto & DeFi"
 ---
 
 There's a certain kind of panic that sweeps through crypto circles every time Bitcoin pulls back 2-3%. People start throwing around the word "crash" like confetti. Charts get posted. Alarm bells ring. And honestly — I think most of it is noise.

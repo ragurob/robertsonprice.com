@@ -1,6 +1,8 @@
 ---
 title: "The Intermediate Observer Layer — Why Your AI Needs a Manager Before It Needs More Tools"
 date: 2023-06-07
+category: "AI Infrastructure"
+slug: "the-intermediate-observer-layer-why-your-ai-needs-a-manager-before-it-needs"
 ---
 
 There's a pattern I keep seeing in the AI space right now, and it's driving me a little crazy. Everyone's racing to bolt more tools onto GPT — Salesforce integrations, database queries, third-party APIs — as if the problem is that the AI doesn't have enough capabilities. But that's not the problem. The problem is that a chat AI has no idea WHEN to use those tools, or WHY.

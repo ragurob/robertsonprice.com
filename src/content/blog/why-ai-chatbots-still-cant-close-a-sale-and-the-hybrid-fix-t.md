@@ -1,6 +1,7 @@
 ---
 title: "Why AI Chatbots Still Can't Close a Sale — And the Hybrid Fix That Might Actually Work"
 date: 2023-06-22
+category: "AI Strategy"
 ---
 
 I've been deep in the weeds on something that sounds simple but turns out to be genuinely hard: getting an AI chatbot to guide a customer toward a purchase decision.

@@ -1,6 +1,8 @@
 ---
 title: "Buying All the Way Down — Why I'm Still Accumulating Crypto in a Bleeding Market"
 date: 2021-06-21
+category: "Crypto & DeFi"
+slug: "buying-all-the-way-down-why-im-still-accumulating-crypto-in-a-bleeding-market"
 ---
 
 I'm not going to sugarcoat it — watching your portfolio bleed is painful. Every time I check the charts and see another red candle, there's that gut-level reaction that says *stop buying, you idiot*. But I've been through enough cycles now to know that the gut is usually wrong at exactly the moments it screams the loudest.

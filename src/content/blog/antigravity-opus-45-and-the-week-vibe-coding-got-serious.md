@@ -1,6 +1,7 @@
 ---
 title: "Antigravity, Opus 4.5, and the Week Vibe Coding Got Serious"
 date: 2025-11-24
+category: "AI Tools & Products"
 ---
 
 It's been one of those weeks where the AI space moves so fast you can barely finish testing one thing before the next drops. And this week, two announcements landed that I think are genuinely important — not just for developers, but for the growing wave of people who are building real things with AI assistance despite not having traditional engineering backgrounds.

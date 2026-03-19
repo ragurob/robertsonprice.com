@@ -1,6 +1,7 @@
 ---
 title: "Grayscale Lockups, Bot Shutdowns, and Why I'm Dollar-Cost Averaging Into This Downturn"
 date: 2021-05-23
+category: "Crypto & DeFi"
 ---
 
 The crypto market has been brutal this past week. I've been sitting on the sidelines since Thursday, bots switched off, watching the charts with a lot of interest — and honestly, a bit of relief that I'm not trying to trade through this.

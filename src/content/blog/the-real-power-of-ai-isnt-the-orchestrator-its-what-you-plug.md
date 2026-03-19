@@ -1,6 +1,7 @@
 ---
 title: "The Real Power of AI Isn't the Orchestrator — It's What You Plug Into It"
 date: 2026-03-02
+category: "AI Infrastructure"
 ---
 
 I've been thinking a lot about how the AI coding landscape is splitting into two very different camps — and most people are only paying attention to one of them.

@@ -1,6 +1,7 @@
 ---
 title: "What If You Let GPT Run Your WordPress Site? I'm Thinking About Building It."
 date: 2023-02-16
+category: "Building & Shipping"
 ---
 
 I've been noodling on something this week that feels like it sits right at the intersection of "pretty powerful" and "maybe slightly terrifying."

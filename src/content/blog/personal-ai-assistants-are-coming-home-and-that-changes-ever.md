@@ -1,6 +1,7 @@
 ---
 title: "Personal AI Assistants Are Coming Home — And That Changes Everything"
 date: 2026-01-25
+category: "AI Tools & Products"
 ---
 
 I've been thinking a lot this week about what happens when AI stops being a tool you visit and starts being a tool that lives with you. Not in the sci-fi sense — in the very practical sense of an AI assistant running on your personal machine, reading your actual emails, connected to your actual messaging apps, and doing real work on your behalf.

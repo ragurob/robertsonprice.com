@@ -1,6 +1,8 @@
 ---
 title: "Why I'm Moving From Binance Smart Chain to Solana, Fantom, and the Next Wave of DeFi"
 date: 2021-08-31
+category: "Crypto & DeFi"
+slug: "why-im-moving-from-binance-smart-chain-to-solana-fantom-and-the-next-wave-of-defi"
 ---
 
 The Binance Smart Chain ecosystem has been my bread and butter for months now. I've written about CAKE, about yield farming, about liquidity pools — and the returns have been solid. But something's shifting, and I think it's time to talk about it honestly.

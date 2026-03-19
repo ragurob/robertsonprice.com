@@ -1,6 +1,7 @@
 ---
 title: "Gemini Pro Is Good — But GPT-4 Still Thinks Different"
 date: 2023-12-12
+category: "AI Tools & Products"
 ---
 
 I've been away for a couple of weeks, and the AI landscape shifted again while I wasn't looking. Pretty typical at this point. I spent a solid two hours this morning running a proper comparison between Google's Bard (which I'm fairly certain was serving me Gemini Pro responses, not Ultra), GPT-4, and Claude 2. Same prompts, same context, copy-pasted across all three. Here's what I found.

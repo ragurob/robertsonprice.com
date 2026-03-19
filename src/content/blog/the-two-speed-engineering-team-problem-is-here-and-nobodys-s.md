@@ -1,6 +1,7 @@
 ---
 title: "The Two-Speed Engineering Team Problem Is Here — And Nobody's Solved It Yet"
 date: 2026-02-11
+category: "AI Strategy"
 ---
 
 I've been watching something play out across pretty much every engineering team I'm connected to, and it's becoming impossible to ignore.

@@ -1,6 +1,8 @@
 ---
 title: "AutoGPT Just Asked Me for My Credit Card — And That's a Bigger Deal Than You Think"
 date: 2023-04-15
+category: "AI Tools & Products"
+slug: "autogpt-just-asked-me-for-my-credit-card-and-thats-a-bigger-deal-than-you-think"
 ---
 
 I've been running AutoGPT on real tasks for a few weeks now, and I've been pretty open about documenting what works, what doesn't, and what surprises me. But today something happened that genuinely stopped me in my tracks.

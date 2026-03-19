@@ -1,6 +1,7 @@
 ---
 title: "Half-Price Altcoins, 135% Yields, and Why I'm Building a Bot Strategy for This Recovery"
 date: 2021-05-24
+category: "Crypto & DeFi"
 ---
 
 ---

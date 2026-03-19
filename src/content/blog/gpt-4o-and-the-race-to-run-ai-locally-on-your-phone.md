@@ -1,6 +1,7 @@
 ---
 title: "GPT-4o and the Race to Run AI Locally on Your Phone"
 date: 2024-05-13
+category: "AI Tools & Products"
 ---
 
 OpenAI just dropped GPT-4o, and there's a lot to unpack here. But honestly, the thing I'm most excited about isn't the model itself — it's what it signals about where inference is heading.

@@ -1,6 +1,7 @@
 ---
 title: "When Your Chart Breaks: Trend Lines, Invalidation, and Being Ready for the Drop"
 date: 2021-10-01
+category: "Crypto & DeFi"
 ---
 
 There's a debate that never dies in technical analysis — when is a trend line actually a trend line, and when has it been invalidated? I've been staring at charts this week and I think it's worth digging into, because we're at one of those inflection points where getting this wrong could be expensive.

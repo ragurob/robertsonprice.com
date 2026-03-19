@@ -1,6 +1,7 @@
 ---
 title: "The Case for Moving Crypto Into DeFi Staking While We Wait for the Real Bottom"
 date: 2021-06-22
+category: "Crypto & DeFi"
 ---
 
 I've been watching Bitcoin flirt with $30K all day and I'm not going to sugarcoat it — I think it's only going to get more grim from here.

@@ -1,6 +1,7 @@
 ---
 title: "China's Crypto Ban: Digital Currency War or Priced-In Noise?"
 date: 2021-09-24
+category: "Crypto & DeFi"
 ---
 
 So the People's Bank of China just declared all crypto-related transactions illegal. Again. Sort of.

@@ -1,6 +1,7 @@
 ---
 title: "I Cloned My Face in 3D for Free. Here's What That Actually Means."
 date: 2023-04-19
+category: "AI Tools & Products"
 ---
 
 I've been watching AI developments closely — AutoGPT, ChatGPT browsing the web, voice cloning — but Avaturn hit different. Not because of the technical spec. Because of how FAST the barrier just collapsed.

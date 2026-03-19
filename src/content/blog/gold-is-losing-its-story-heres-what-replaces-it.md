@@ -1,6 +1,7 @@
 ---
 title: "Gold Is Losing Its Story — Here's What Replaces It"
 date: 2021-11-06
+category: "Crypto & DeFi"
 ---
 
 I've been thinking a lot about gold lately. Not because I'm bullish on it — quite the opposite. But because the conversation around gold as an inflation hedge has gotten pretty loud this week, and I think most of it is wrong.

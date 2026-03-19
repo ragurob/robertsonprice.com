@@ -1,6 +1,7 @@
 ---
 title: "Launching Ragu: Why We Built a Simple RAG Platform for Everyone"
 date: 2024-02-02
+category: "Building & Shipping"
 ---
 
 I've been quiet for a while. Those who've been following my writing know I usually can't shut up about what's happening in AI — the models, the tooling, the implications. But sometimes you go quiet because you're building.

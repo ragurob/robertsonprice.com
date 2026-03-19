@@ -1,6 +1,7 @@
 ---
 title: "I Finally Tried Polygon — And I Think It Changes the DeFi Playbook Entirely"
 date: 2021-06-25
+category: "Crypto & DeFi"
 ---
 
 I've been thinking about DeFi for a while now — the opportunities, the risks, the exploits. But I'll be honest, until this week I hadn't actually used Polygon. I'd been running most of my DeFi activity through the BNB chain, using PancakeSwap, stacking positions in liquidity pools, and generally treating Binance Smart Chain as my go-to Layer 2 alternative to Ethereum's brutal gas fees.

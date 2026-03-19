@@ -1,6 +1,7 @@
 ---
 title: "I Just Gave AutoGPT a Real Job — Build a Global Museum Index. Here's What Happened."
 date: 2023-04-14
+category: "AI Tools & Products"
 ---
 
 I've been thinking about AutoGPT for a couple of weeks now, and I think it might be the most important AI development since ChatGPT itself. But there's a difference between being excited about something in theory and actually putting it to work. So this week, I did exactly that.

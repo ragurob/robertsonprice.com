@@ -1,6 +1,7 @@
 ---
 title: "OHM Forks Are Printing Money — But for How Long?"
 date: 2021-11-18
+category: "Crypto & DeFi"
 ---
 
 If you've been paying any attention to DeFi over the past few weeks, you've probably noticed the explosion of OHM forks. And if you haven't — well, you're leaving money on the table. Possibly a LOT of money. But also possibly walking past a minefield. Let me break down what's happening.

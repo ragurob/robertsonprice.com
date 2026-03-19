@@ -1,6 +1,7 @@
 ---
 title: "AI Won't Kill Jobs — It'll Kill the Jobs Nobody Wanted, Then Come for the Ones We Did"
 date: 2023-05-11
+category: "AI Strategy"
 ---
 
 I've been thinking a lot about the jobs question lately. Not the abstract, academic version — the real one. The one where actual industries are already shifting under our feet and people are trying to figure out what's next.

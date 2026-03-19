@@ -1,6 +1,7 @@
 ---
 title: "OpenClaw Is Back — And Here's What You Need to Know Before Giving an AI Agent Your Email"
 date: 2026-02-19
+category: "AI Tools & Products"
 ---
 
 I've been watching the AI personal assistant space pretty closely, and this week OpenClaw popped back onto my radar in a big way. If you haven't been following it, OpenClaw is essentially an AI-powered personal assistant that can handle email, scheduling, and task management — think of it as a capable digital PA that actually understands context and can take action on your behalf.

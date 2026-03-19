@@ -1,6 +1,7 @@
 ---
 title: "The Case for AI-to-AI Communication (And Why Your Inbox Should Be Off-Limits)"
 date: 2026-02-23
+category: "AI Strategy"
 ---
 
 Something happened this week that reinforced a principle I've been thinking about for a while. Someone in the AI space got absolutely hammered on Twitter — publicly, viciously — because of how their AI tools interacted with the outside world. I'm not going to pile on. But it's a pretty stark reminder that this software is dangerous when the communication boundaries aren't right.

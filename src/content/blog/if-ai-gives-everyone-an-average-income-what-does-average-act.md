@@ -1,6 +1,7 @@
 ---
 title: "If AI Gives Everyone an Average Income, What Does \"Average\" Actually Want to Buy?"
 date: 2023-05-10
+category: "AI Strategy"
 ---
 
 Here's a thought exercise that's been stuck in my head all week.

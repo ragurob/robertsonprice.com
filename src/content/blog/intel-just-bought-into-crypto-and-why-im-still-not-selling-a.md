@@ -1,6 +1,7 @@
 ---
 title: "Intel Just Bought Into Crypto — And Why I'm Still Not Selling Anything"
 date: 2021-08-13
+category: "Crypto & DeFi"
 ---
 
 The crypto market's been on a tear this week, and I've got a few thoughts on what's happening, where I'm positioned, and why a chip giant buying into the space matters more than most people think.

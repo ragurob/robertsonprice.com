@@ -1,6 +1,7 @@
 ---
 title: "Why I'm Betting on Altcoins Over Bitcoin in 2021 — And Why Exchange Access Matters"
 date: 2021-02-13
+category: "Crypto & DeFi"
 ---
 
 Hey — I've been pretty vocal about my crypto bot strategies over the past few months, but I want to talk about something that's been on my mind this week: the altcoin opportunity that's sitting RIGHT in front of us, and the exchange access problem that's quietly locking a lot of traders out of it.

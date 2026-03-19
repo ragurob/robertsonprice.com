@@ -1,6 +1,7 @@
 ---
 title: "Multi-LLM Agent Collaboration Is the Next Big Leap — And There's Already a Paper for It"
 date: 2023-06-14
+category: "AI Infrastructure"
 ---
 
 I've been deep in the weeds on agentic AI for a while now — if you've followed my earlier posts on AutoGPT, you know I'm not just theorizing about this stuff. I've been giving autonomous agents real jobs and watching what happens. But something clicked for me this week that I think moves the conversation forward in a pretty significant way.

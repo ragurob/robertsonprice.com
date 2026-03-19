@@ -1,6 +1,7 @@
 ---
 title: "A Leveraged Yield Farming Strategy That Actually Manages Risk"
 date: 2021-07-31
+category: "Crypto & DeFi"
 ---
 
 I've been deep in the weeds on leveraged yield farming lately — specifically on Alpaca Finance — and I think there's a strategy here that most people are missing. Not because it's complicated, but because most DeFi participants either go all-in on max leverage or avoid it entirely. Both approaches leave money on the table.

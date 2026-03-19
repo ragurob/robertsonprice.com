@@ -1,6 +1,7 @@
 ---
 title: "The $4.4 Trillion Question: Why Sitting on Your Hands With AI Could Be Fatal"
 date: 2024-04-23
+category: "AI Strategy"
 ---
 
 McKinsey dropped a report recently that I think deserves more attention than it's getting. The numbers are staggering, and I don't use that word lightly.

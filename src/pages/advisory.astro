@@ -1,0 +1,353 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout
+  title="Work With Me — Robertson Price"
+  description="Robertson Price helps companies navigate AI transformation — from strategy through production deployment. Live Build Sessions, Fractional AI Strategy, Enterprise AI Infrastructure."
+  ogImage="/robertson.jpg"
+>
+<style>
+  .advisory-page {
+    padding-top: calc(80px + clamp(60px, 8vw, 100px));
+    padding-bottom: var(--section-gap);
+  }
+
+  /* PAGE HEADER */
+  .page-header {
+    max-width: 720px;
+    margin-bottom: clamp(64px, 8vw, 100px);
+    border-bottom: 1px solid var(--color-border-light);
+    padding-bottom: clamp(48px, 6vw, 72px);
+  }
+  .page-label {
+    font-size: 0.78rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+    margin-bottom: 20px;
+  }
+  .page-header h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(2.4rem, 5vw, 3.6rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .page-header p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: var(--color-text-secondary);
+    max-width: 560px;
+  }
+
+  /* ENGAGEMENTS */
+  .engagements {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: clamp(64px, 8vw, 100px);
+  }
+  .engagement-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: clamp(32px, 5vw, 80px);
+    padding: clamp(40px, 5vw, 60px) 0;
+    border-bottom: 1px solid var(--color-border-light);
+    align-items: start;
+  }
+  .engagement-item:first-child { border-top: 1px solid var(--color-border-light); }
+  .engagement-left { padding-top: 4px; }
+  .engagement-number {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--color-text-tertiary);
+    margin-bottom: 12px;
+  }
+  .engagement-left h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 2vw, 1.6rem);
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .engagement-price {
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: var(--color-text-tertiary);
+  }
+  .engagement-right p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    margin-bottom: 1.4em;
+  }
+  .engagement-right p:last-of-type { margin-bottom: 0; }
+  .engagement-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .engagement-tag {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+    background: var(--color-border-light);
+    padding: 5px 12px;
+    border-radius: 20px;
+  }
+
+  /* CREDIBILITY */
+  .credibility {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: clamp(32px, 4vw, 56px);
+    margin-bottom: clamp(64px, 8vw, 100px);
+  }
+  .credibility-label {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+    margin-bottom: 24px;
+  }
+  .credibility-bio {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: var(--color-text-secondary);
+    max-width: 640px;
+    margin-bottom: 32px;
+  }
+  .credibility-bio strong { font-weight: 600; color: var(--color-text); }
+  .credibility-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    padding-top: 32px;
+    border-top: 1px solid var(--color-border-light);
+  }
+  .stat-item {}
+  .stat-number {
+    font-family: var(--font-serif);
+    font-size: clamp(1.4rem, 2.5vw, 1.8rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 4px;
+  }
+  .stat-label {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    line-height: 1.4;
+  }
+
+  /* CONTACT FORM */
+  .inquiry-section {
+    max-width: 640px;
+  }
+  .inquiry-section h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 12px;
+  }
+  .inquiry-section > p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+    margin-bottom: 40px;
+  }
+  .inquiry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { display: flex; flex-direction: column; gap: 8px; }
+  .form-group label {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.01em;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    color: var(--color-text);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: 12px 16px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    -webkit-appearance: none;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--color-text);
+  }
+  .form-group textarea { resize: vertical; min-height: 140px; line-height: 1.6; }
+  .form-submit {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+    padding: 14px 28px;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    align-self: flex-start;
+  }
+  .form-submit:hover { background: var(--color-accent-hover); transform: translateY(-1px); }
+
+  @media (max-width: 768px) {
+    .engagement-item { grid-template-columns: 1fr; gap: 20px; }
+    .credibility-stats { grid-template-columns: 1fr 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 480px) {
+    .credibility-stats { grid-template-columns: 1fr; }
+  }
+</style>
+
+<div class="advisory-page">
+  <div class="container">
+
+    <div class="page-header fade-in">
+      <p class="page-label">Advisory &amp; Consulting</p>
+      <h1>Work With Me</h1>
+      <p>I help companies navigate AI transformation — from strategy through production deployment. 25 years of building at the frontier means I know what works, what doesn't, and where the real leverage is.</p>
+    </div>
+
+    <div class="engagements">
+      <div class="engagement-item fade-in">
+        <div class="engagement-left">
+          <p class="engagement-number">01</p>
+          <h2>Live Build Sessions</h2>
+          <p class="engagement-price">$1,500 / hr</p>
+        </div>
+        <div class="engagement-right">
+          <p>Real-time AI problem-solving. You bring the challenge, I build the solution live. Not a presentation — an actual working session where we ship something functional together.</p>
+          <p>These sessions work best when you have a specific problem: a workflow to automate, a product feature to prototype, an infrastructure decision to make. We get on a call and build.</p>
+          <div class="engagement-tags">
+            <span class="engagement-tag">1-on-1</span>
+            <span class="engagement-tag">Prototype to production</span>
+            <span class="engagement-tag">Same-day deliverable</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="engagement-item fade-in stagger-1">
+        <div class="engagement-left">
+          <p class="engagement-number">02</p>
+          <h2>Fractional AI Strategy</h2>
+          <p class="engagement-price">Monthly retainer</p>
+        </div>
+        <div class="engagement-right">
+          <p>Ongoing strategic advisory for companies serious about AI. I become embedded in your leadership team — attending key meetings, shaping your AI roadmap, and acting as a sounding board for every major technology decision.</p>
+          <p>This is for founders and CEOs who want the judgment of someone who has built through multiple technology transitions, available on-demand without the overhead of a full-time hire.</p>
+          <div class="engagement-tags">
+            <span class="engagement-tag">Async access</span>
+            <span class="engagement-tag">AI roadmap</span>
+            <span class="engagement-tag">Executive coaching</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="engagement-item fade-in stagger-2">
+        <div class="engagement-left">
+          <p class="engagement-number">03</p>
+          <h2>Enterprise AI Infrastructure</h2>
+          <p class="engagement-price">Discovery → deployment</p>
+        </div>
+        <div class="engagement-right">
+          <p>Full implementation via <a href="https://ragu.ai" class="subtle-link" target="_blank">Ragu.AI</a>. My team builds production-grade AI systems for premium brands — the kind of infrastructure that runs quietly and reliably at scale.</p>
+          <p>Current clients include Berry Bros &amp; Rudd, Black Tomato, and Brooklyn Travel. We handle everything from architecture through deployment, with $55K+ monthly recurring revenue across our portfolio.</p>
+          <div class="engagement-tags">
+            <span class="engagement-tag">Enterprise</span>
+            <span class="engagement-tag">Full implementation</span>
+            <span class="engagement-tag">Production-grade</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="credibility fade-in">
+      <p class="credibility-label">Background</p>
+      <p class="credibility-bio">
+        Robertson Price is a serial entrepreneur who has built and exited multiple internet companies over 25 years — from search (<strong>iWon.com</strong>, part of the team that drove 20% of Google's early search revenue, <strong>$750M acquisition</strong>) to content networks (<strong>Answers Network</strong>, 32M monthly visitors, 600 websites, 45 employees, 100% founder-owned) to e-commerce (<strong>Rebates.com</strong>, $500K/month paid marketing operation). He now builds enterprise AI infrastructure at Ragu.AI and holds two AI-related patents. As seen on <strong>ABC 6abc News</strong>.
+      </p>
+      <div class="credibility-stats">
+        <div class="stat-item">
+          <div class="stat-number">25+</div>
+          <div class="stat-label">Years building internet companies</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">$750M</div>
+          <div class="stat-label">Acquisition — iWon.com search</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">32M</div>
+          <div class="stat-label">Monthly visitors at Answers Network</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="inquiry-section fade-in">
+      <h2>Start a conversation</h2>
+      <p>I take on a limited number of engagements. Tell me what you're working on and I'll respond within 48 hours.</p>
+      <form class="inquiry-form" action="#" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" placeholder="Your company" />
+        </div>
+        <div class="form-group">
+          <label for="engagement">What are you looking for?</label>
+          <select id="engagement" name="engagement">
+            <option value="">Select an engagement type</option>
+            <option value="live-build">Live Build Session ($1,500/hr)</option>
+            <option value="fractional">Fractional AI Strategy (monthly retainer)</option>
+            <option value="enterprise">Enterprise AI Infrastructure (Ragu.AI)</option>
+            <option value="other">Not sure yet — let's talk</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Tell me what you're working on</label>
+          <textarea id="message" name="message" placeholder="Describe your challenge, where you are now, and what you're trying to achieve..." required></textarea>
+        </div>
+        <button type="submit" class="form-submit">
+          Send inquiry
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px;height:16px"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</div>
+</Layout>

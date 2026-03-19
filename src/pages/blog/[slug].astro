@@ -5,15 +5,27 @@ import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
   const sorted = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
-  return sorted.map((post, index) => ({
-    params: { slug: post.id },
-    props: {
-      post,
-      prevPost: sorted[index + 1] || null,
-      nextPost: sorted[index - 1] || null,
-      relatedPosts: sorted.filter((_, i) => i !== index).slice(Math.max(0, index - 2), index + 3).filter((_, i, arr) => i < 3),
-    },
-  }));
+
+  // Build a lookup: slug → post (handles both custom slug and id)
+  const slugMap = new Map<string, typeof sorted[0]>();
+  sorted.forEach(post => {
+    const customSlug = (post.data as any).slug;
+    if (customSlug) slugMap.set(customSlug, post);
+    slugMap.set(post.id, post);
+  });
+
+  return sorted.map((post, index) => {
+    const routeSlug = (post.data as any).slug ?? post.id;
+    return {
+      params: { slug: routeSlug },
+      props: {
+        post,
+        prevPost: sorted[index + 1] || null,
+        nextPost: sorted[index - 1] || null,
+        relatedPosts: sorted.filter((_, i) => i !== index).slice(Math.max(0, index - 2), index + 3).filter((_, i, arr) => i < 3),
+      },
+    };
+  });
 }
 
 const { post, prevPost, nextPost, relatedPosts } = Astro.props;
@@ -24,9 +36,14 @@ function readingTime(body: string): number {
   return Math.max(1, Math.round(words / 200));
 }
 
+function postSlug(p: any): string {
+  return (p.data as any).slug ?? p.id;
+}
+
 const minutes = readingTime(post.body || '');
 const formattedDate = post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 const ogImage = `/images/blog/${post.id}.svg`;
+const currentSlug = postSlug(post);
 ---
 <Layout
   title={`${post.data.title} — Robertson Price`}
@@ -57,7 +74,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
     max-height: 480px;
     overflow: hidden;
     margin-bottom: clamp(40px, 5vw, 64px);
-    margin-top: 60px; /* nav height */
+    margin-top: 60px;
     background: var(--color-border-light);
   }
   .post-hero img {
@@ -131,7 +148,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
   .post-body :global(p) {
     font-size: 1rem;
     line-height: 1.8;
-    color: var(--color-text-secondary);
+    color: var(--color-text);
     margin-bottom: 1.5em;
   }
   .post-body :global(strong) { font-weight: 600; color: var(--color-text); }
@@ -139,7 +156,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
   .post-body :global(a) { border-bottom: 1px solid var(--color-border); padding-bottom: 1px; transition: border-color 0.2s ease; }
   .post-body :global(a:hover) { border-color: var(--color-text); }
   .post-body :global(ul), .post-body :global(ol) { padding-left: 1.5em; margin-bottom: 1.5em; }
-  .post-body :global(li) { font-size: 1rem; line-height: 1.8; color: var(--color-text-secondary); margin-bottom: 0.5em; }
+  .post-body :global(li) { font-size: 1rem; line-height: 1.8; color: var(--color-text); margin-bottom: 0.5em; }
   .post-body :global(blockquote) {
     border-left: 2px solid var(--color-sketch);
     padding: 4px 0 4px 24px;
@@ -170,15 +187,110 @@ const ogImage = `/images/blog/${post.id}.svg`;
   .post-body :global(pre code) { background: none; padding: 0; font-size: 0.85em; }
   .post-body :global(hr) { border: none; border-top: 1px solid var(--color-border-light); margin: 2.5em 0; }
 
+  /* NEWSLETTER */
+  .post-newsletter {
+    max-width: 680px;
+    margin-top: 3em;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: clamp(24px, 3vw, 36px);
+  }
+  .post-newsletter h3 {
+    font-family: var(--font-serif);
+    font-size: clamp(1.1rem, 1.8vw, 1.35rem);
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+  .post-newsletter p {
+    font-size: 0.88rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    margin-bottom: 16px;
+  }
+  .newsletter-form-inline { display: flex; gap: 8px; }
+  .newsletter-input-inline {
+    flex: 1;
+    font-family: var(--font-sans);
+    font-size: 0.88rem;
+    padding: 10px 14px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  .newsletter-input-inline:focus { border-color: var(--color-text); }
+  .newsletter-btn-inline {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 10px 18px;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+  .newsletter-btn-inline:hover { background: var(--color-accent-hover); }
+
+  /* AUTHOR BIO */
+  .author-bio {
+    max-width: 680px;
+    margin-top: 2em;
+    padding: clamp(24px, 3vw, 32px);
+    border: 1px solid var(--color-border-light);
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  .author-avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: var(--color-border-light);
+  }
+  .author-avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .author-bio-content {}
+  .author-bio-name {
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    letter-spacing: -0.01em;
+  }
+  .author-bio-text {
+    font-size: 0.85rem;
+    line-height: 1.65;
+    color: var(--color-text-secondary);
+    margin-bottom: 10px;
+  }
+  .author-bio-links { display: flex; gap: 12px; }
+  .author-bio-link {
+    font-size: 0.78rem;
+    font-weight: 500;
+    color: var(--color-text-secondary);
+    border-bottom: 1px solid var(--color-border);
+    padding-bottom: 1px;
+    transition: all 0.2s ease;
+  }
+  .author-bio-link:hover { color: var(--color-text); border-color: var(--color-text); }
+
   /* Share */
   .post-share {
     max-width: 680px;
-    margin-top: 2.5em;
+    margin-top: 2em;
     padding-top: 2em;
     border-top: 1px solid var(--color-border-light);
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
   }
   .share-label {
     font-size: 0.82rem;
@@ -197,9 +309,30 @@ const ogImage = `/images/blog/${post.id}.svg`;
     border-radius: 6px;
     transition: all 0.2s ease;
     text-decoration: none;
+    cursor: pointer;
+    background: none;
+    font-family: var(--font-sans);
   }
   .share-link:hover { color: var(--color-text); border-color: var(--color-text); }
   .share-link svg { width: 14px; height: 14px; }
+  .copy-link-btn { position: relative; }
+  .copy-confirm {
+    position: absolute;
+    bottom: calc(100% + 6px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-text);
+    color: var(--color-bg);
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+  }
+  .copy-link-btn.copied .copy-confirm { opacity: 1; }
 
   /* Prev/Next */
   .post-nav {
@@ -277,6 +410,8 @@ const ogImage = `/images/blog/${post.id}.svg`;
     .nav-item:last-child { text-align: left; }
     .related-grid { grid-template-columns: 1fr; }
     .post-share { flex-wrap: wrap; }
+    .newsletter-form-inline { flex-direction: column; }
+    .author-bio { flex-direction: column; gap: 14px; }
   }
 </style>
 
@@ -290,7 +425,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
   <div class="container">
     <a href="/blog" class="post-back">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" /></svg>
-      All writing
+      All dispatches
     </a>
 
     <div class="post-header">
@@ -310,23 +445,54 @@ const ogImage = `/images/blog/${post.id}.svg`;
       <Content />
     </div>
 
+    <!-- Newsletter CTA -->
+    <div class="post-newsletter">
+      <h3>Get my weekly AI dispatch</h3>
+      <p>Real analysis from someone who's been building on the internet since 1996. Join 500+ founders and operators getting my take on AI, tools, and what's actually working.</p>
+      <form class="newsletter-form-inline" action="#" method="POST">
+        <input class="newsletter-input-inline" type="email" name="email" placeholder="you@company.com" required />
+        <button class="newsletter-btn-inline" type="submit">Subscribe →</button>
+      </form>
+    </div>
+
+    <!-- Author Bio -->
+    <div class="author-bio">
+      <div class="author-avatar">
+        <img src="/robertson.jpg" alt="Robertson Price" />
+      </div>
+      <div class="author-bio-content">
+        <p class="author-bio-name">Robertson Price</p>
+        <p class="author-bio-text">Serial entrepreneur who has built and exited multiple internet companies over 25 years — from search (iWon.com, $750M acquisition) to content networks (32M monthly visitors) to e-commerce (Rebates.com). He now builds enterprise AI infrastructure at Ragu.AI.</p>
+        <div class="author-bio-links">
+          <a href="https://linkedin.com/in/robprice/" class="author-bio-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://x.com/robertson" class="author-bio-link" target="_blank" rel="noopener noreferrer">X</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Share -->
     <div class="post-share">
       <span class="share-label">Share</span>
-      <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent('https://robertsonprice.com/blog/' + post.id)}`} class="share-link" target="_blank" rel="noopener noreferrer">
+      <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.data.title)}&url=${encodeURIComponent('https://robertsonprice.com/blog/' + currentSlug)}`} class="share-link" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.74l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
         X (Twitter)
       </a>
-      <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://robertsonprice.com/blog/' + post.id)}`} class="share-link" target="_blank" rel="noopener noreferrer">
+      <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent('https://robertsonprice.com/blog/' + currentSlug)}`} class="share-link" target="_blank" rel="noopener noreferrer">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
         LinkedIn
       </a>
+      <button class="share-link copy-link-btn" id="copy-link-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" /></svg>
+        Copy link
+        <span class="copy-confirm">Copied!</span>
+      </button>
     </div>
 
     {(prevPost || nextPost) && (
       <nav class="post-nav">
         <div>
           {prevPost && (
-            <a href={`/blog/${prevPost.id}`} class="nav-item">
+            <a href={`/blog/${postSlug(prevPost)}`} class="nav-item">
               <span class="nav-direction">← Older</span>
               <span class="nav-title">{prevPost.data.title}</span>
             </a>
@@ -334,7 +500,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
         </div>
         <div>
           {nextPost && (
-            <a href={`/blog/${nextPost.id}`} class="nav-item">
+            <a href={`/blog/${postSlug(nextPost)}`} class="nav-item">
               <span class="nav-direction">Newer →</span>
               <span class="nav-title">{nextPost.data.title}</span>
             </a>
@@ -348,7 +514,7 @@ const ogImage = `/images/blog/${post.id}.svg`;
         <p class="related-label">Continue Reading</p>
         <div class="related-grid">
           {relatedPosts.map((p: any) => (
-            <a href={`/blog/${p.id}`} class="related-card">
+            <a href={`/blog/${postSlug(p)}`} class="related-card">
               <div class="related-img">
                 <img src={`/images/blog/${p.id}.svg`} alt={p.data.title} loading="lazy" />
               </div>
@@ -374,6 +540,28 @@ const ogImage = `/images/blog/${post.id}.svg`;
     };
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
+  }
+
+  // Copy link button
+  const copyBtn = document.getElementById('copy-link-btn');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(window.location.href);
+        copyBtn.classList.add('copied');
+        setTimeout(() => copyBtn.classList.remove('copied'), 2000);
+      } catch {
+        // Fallback
+        const input = document.createElement('input');
+        input.value = window.location.href;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+        copyBtn.classList.add('copied');
+        setTimeout(() => copyBtn.classList.remove('copied'), 2000);
+      }
+    });
   }
 </script>
 </Layout>

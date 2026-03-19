@@ -1,6 +1,7 @@
 ---
 title: "Solana Is the Real Deal — And Fantom Isn't Even Close"
 date: 2021-08-30
+category: "Crypto & DeFi"
 ---
 
 I spent the entire day today hands-on with the Fantom and Solana ecosystems. Not reading whitepapers, not watching YouTube breakdowns — actually moving tokens around, swapping, testing speeds, trying to use these chains the way real DeFi users would.

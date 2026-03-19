@@ -1,6 +1,7 @@
 ---
 title: "AI-Generated Porn Is Here — And Nobody Has a Plan"
 date: 2022-12-27
+category: "AI Tools & Products"
 ---
 
 I've been diving deep into AI image generation over the past few months. I've written about AI art, I've loaded up credits on generators and played around with what's possible. The creative potential is genuinely exciting. But there's a side of this technology that's developing just as fast — and it's a LOT harder to talk about.

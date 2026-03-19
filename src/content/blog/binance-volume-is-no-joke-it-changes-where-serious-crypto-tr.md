@@ -1,6 +1,7 @@
 ---
 title: "Binance Volume Is No Joke — It Changes Where Serious Crypto Trading Happens"
 date: 2021-07-22
+category: "Crypto & DeFi"
 ---
 
 I got my trading bot fully online on Binance yesterday. It's been running feverishly since launch, and after weeks of operating across multiple exchanges, I can now say something with absolute confidence:

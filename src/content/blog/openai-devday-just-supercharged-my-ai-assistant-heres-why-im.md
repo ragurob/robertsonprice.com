@@ -1,6 +1,7 @@
 ---
 title: "OpenAI DevDay Just Supercharged My AI Assistant — Here's Why I'm Excited"
 date: 2023-11-06
+category: "AI Tools & Products"
 ---
 
 I've been building AI tools for months now. Quietly, expensively, and with a level of infrastructure paranoia that would make a cybersecurity consultant proud. So when OpenAI dropped their DevDay announcements this week, I wasn't just watching as a curious observer — I was watching as someone with skin in the game.

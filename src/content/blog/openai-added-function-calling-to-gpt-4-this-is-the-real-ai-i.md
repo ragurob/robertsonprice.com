@@ -1,6 +1,7 @@
 ---
 title: "OpenAI Added Function Calling to GPT-4 — This Is the Real AI Integration Unlock"
 date: 2023-06-14
+category: "AI Tools & Products"
 ---
 
 I'm a little late on this one — sorry if you've already seen it — but OpenAI just dropped something that I think is going to be a much bigger deal than the headlines suggest.

@@ -1,6 +1,7 @@
 ---
 title: "The Crypto Market Just Crashed 30% — Here's What I Did and Learned"
 date: 2021-05-19
+category: "Crypto & DeFi"
 ---
 
 If you've been anywhere near a screen today, you already know. Bitcoin dropped off a cliff, dragging every altcoin with it, and for about two hours this afternoon the entire crypto market felt like it was on fire.

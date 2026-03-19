@@ -1,6 +1,7 @@
 ---
 title: "The 3AM Crypto Crash: Why I'm Buying This Dip"
 date: 2021-12-04
+category: "Crypto & DeFi"
 ---
 
 If you're reading this on Saturday morning and wondering what happened to your portfolio overnight — yeah. It was a rough one.

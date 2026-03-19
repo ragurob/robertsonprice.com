@@ -1,6 +1,7 @@
 ---
 title: "Why I'm Shifting from Active Trading to HODL + DeFi Yield Right Now"
 date: 2021-08-11
+category: "Crypto & DeFi"
 ---
 
 I think I missed something important during the last run-up. I was grinding — watching charts, tweaking bots, trying to WORK for the returns. And looking back, that was the wrong move. The market was doing the heavy lifting. I just needed to get out of my own way.

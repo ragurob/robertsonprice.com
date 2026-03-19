@@ -1,6 +1,7 @@
 ---
 title: "Solana's DeFi Ecosystem Is Opening Up — And Most People Are Still Stuck on CEXs"
 date: 2021-09-09
+category: "Crypto & DeFi"
 ---
 
 If you've been watching SOL over the last few weeks, you already know. It's been on an absolute tear. But here's what I think a lot of people are missing — the real opportunity isn't just holding SOL. It's what's happening INSIDE the Solana ecosystem, and how easy it's becoming to get there from wherever you currently are.

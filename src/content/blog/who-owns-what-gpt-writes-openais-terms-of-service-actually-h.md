@@ -1,6 +1,7 @@
 ---
 title: "Who Owns What GPT Writes? OpenAI's Terms of Service Actually Have an Answer"
 date: 2023-02-08
+category: "Building & Shipping"
 ---
 
 I've been deep in the weeds building out my new site — and as I mentioned in a while back, GPT did most of the heavy lifting on the content. But that process raised a question I couldn't ignore: if an AI writes something for you, do you actually *own* it?

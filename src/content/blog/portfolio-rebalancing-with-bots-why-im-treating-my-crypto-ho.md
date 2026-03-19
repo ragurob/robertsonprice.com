@@ -1,6 +1,7 @@
 ---
 title: "Portfolio Rebalancing With Bots: Why I'm Treating My Crypto Holdings Like a Fund Manager"
 date: 2021-04-23
+category: "Crypto & DeFi"
 ---
 
 I've written a lot about individual bot strategies — buying dips, running mean reversion, exploiting GBP pairs. But lately I've been thinking bigger. Not just "how do I trade this pair" but "how do I manage a PORTFOLIO of positions using bots as the rebalancing engine?"

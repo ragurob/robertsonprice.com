@@ -1,6 +1,7 @@
 ---
 title: "What Bitcoin Options Expiry Really Looks Like When You're Running a Bot"
 date: 2021-01-29
+category: "Crypto & DeFi"
 ---
 
 I've never been so fascinated by a line bouncing up and down.

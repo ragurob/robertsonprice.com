@@ -1,6 +1,8 @@
 ---
 title: "Why the Future of AI Isn't One Model — It's All of Them Working Together"
 date: 2024-04-12
+category: "AI Strategy"
+slug: "why-the-future-of-ai-isnt-one-model-its-all-of-them-working-together"
 ---
 
 ## The Multi-LLM Moment

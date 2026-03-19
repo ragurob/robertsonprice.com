@@ -11,6 +11,12 @@ const pagePosts = posts.slice(0, POSTS_PER_PAGE);
 const featuredPost = pagePosts[0];
 const gridPosts = pagePosts.slice(1);
 
+const categories = ['All', 'AI Tools & Products', 'AI Strategy', 'AI Infrastructure', 'Building & Shipping', 'Crypto & DeFi'];
+
+function postSlug(post: any): string {
+  return post.data.slug ?? post.id;
+}
+
 function excerpt(body: string, length = 160): string {
   const text = body
     .replace(/^#+\s+.*/gm, '')
@@ -30,7 +36,7 @@ function formatDate(d: Date): string {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 ---
-<Layout title="Writing — Robertson Price" description="Notes on AI, building companies, and what happens at the frontier.">
+<Layout title="Dispatches — Robertson Price" description="Notes on AI, building companies, and what happens at the frontier.">
 <style>
   .blog-page {
     padding-top: calc(80px + var(--section-gap));
@@ -38,7 +44,7 @@ function formatDate(d: Date): string {
   }
   .blog-header {
     max-width: 720px;
-    margin-bottom: clamp(48px, 6vw, 80px);
+    margin-bottom: clamp(36px, 4vw, 56px);
   }
   .blog-header h1 {
     font-family: var(--font-serif);
@@ -54,6 +60,78 @@ function formatDate(d: Date): string {
     color: var(--color-text-secondary);
     max-width: 600px;
   }
+
+  /* CATEGORY FILTERS */
+  .category-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: clamp(36px, 4vw, 56px);
+    padding-bottom: clamp(24px, 3vw, 36px);
+    border-bottom: 1px solid var(--color-border-light);
+  }
+  .filter-btn {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 7px 16px;
+    border: 1px solid var(--color-border);
+    border-radius: 20px;
+    background: transparent;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover { color: var(--color-text); border-color: var(--color-text-tertiary); }
+  .filter-btn.active { background: var(--color-text); color: var(--color-bg); border-color: var(--color-text); }
+
+  /* NEWSLETTER BANNER */
+  .newsletter-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    padding: clamp(20px, 2.5vw, 28px) clamp(20px, 3vw, 36px);
+    margin-bottom: clamp(40px, 5vw, 64px);
+  }
+  .newsletter-banner p {
+    font-size: 0.92rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+  }
+  .newsletter-banner strong { color: var(--color-text); font-weight: 500; }
+  .newsletter-banner-form { display: flex; gap: 8px; flex-shrink: 0; }
+  .newsletter-input-sm {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    padding: 9px 14px;
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    outline: none;
+    width: 200px;
+    transition: border-color 0.2s ease;
+  }
+  .newsletter-input-sm:focus { border-color: var(--color-text); }
+  .newsletter-btn-sm {
+    font-family: var(--font-sans);
+    font-size: 0.82rem;
+    font-weight: 500;
+    padding: 9px 16px;
+    background: var(--color-accent);
+    color: var(--color-bg);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s ease;
+  }
+  .newsletter-btn-sm:hover { background: var(--color-accent-hover); }
 
   /* ---- FEATURED POST ---- */
   .featured-post {
@@ -157,6 +235,14 @@ function formatDate(d: Date): string {
     margin-bottom: 16px;
     flex: 1;
   }
+  .card-category {
+    font-size: 0.72rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--color-text-tertiary);
+    margin-bottom: 8px;
+  }
 
   /* ---- PAGINATION ---- */
   .pagination {
@@ -186,28 +272,52 @@ function formatDate(d: Date): string {
   .page-btn.nav-btn { width: auto; padding: 0 16px; gap: 8px; font-size: 0.82rem; }
   .page-btn.nav-btn svg { width: 14px; height: 14px; }
 
+  /* HIDDEN for category filter */
+  .post-card.hidden { display: none; }
+  .featured-post.hidden { display: none; }
+
   @media (max-width: 900px) {
     .post-grid { grid-template-columns: repeat(2, 1fr); }
+    .newsletter-banner { flex-direction: column; align-items: flex-start; }
+    .newsletter-banner-form { width: 100%; }
+    .newsletter-input-sm { flex: 1; width: auto; }
   }
   @media (max-width: 640px) {
     .featured-post { grid-template-columns: 1fr; }
     .post-grid { grid-template-columns: 1fr; }
+    .newsletter-banner-form { flex-direction: column; }
+    .newsletter-input-sm { width: 100%; }
   }
 </style>
 <div class="blog-page">
   <div class="container">
     <div class="blog-header">
-      <h1>Writing</h1>
-      <p class="archive-intro">Since 2021, I've shared real-time analysis and commentary on crypto markets and artificial intelligence with a private community of several hundred people. These posts are adapted from that running commentary — first-draft thinking shared in the moment.</p>
+      <h1>Dispatches</h1>
+      <p class="archive-intro">From the Masterclass Archives — adapted from two invite-only groups where I've shared real-time analysis on AI, technology, and markets since 2021. Dates reflect when each piece was originally shared, not when it was published here.</p>
+    </div>
+
+    <div class="category-filters">
+      {categories.map(cat => (
+        <button class={`filter-btn${cat === 'All' ? ' active' : ''}`} data-category={cat}>{cat}</button>
+      ))}
+    </div>
+
+    <div class="newsletter-banner">
+      <p>📬 <strong>Join 500+ founders and operators</strong> getting my weekly take on AI — real analysis, not hype.</p>
+      <form class="newsletter-banner-form" action="#" method="POST">
+        <input class="newsletter-input-sm" type="email" name="email" placeholder="your@email.com" required />
+        <button class="newsletter-btn-sm" type="submit">Subscribe →</button>
+      </form>
     </div>
 
     {featuredPost && (
-      <a href={`/blog/${featuredPost.id}`} class="featured-post">
+      <a href={`/blog/${postSlug(featuredPost)}`} class="featured-post" data-category={(featuredPost.data as any).category ?? 'All'}>
         <div class="featured-image">
           <img src={`/images/blog/${featuredPost.id}.svg`} alt={featuredPost.data.title} loading="eager" />
         </div>
         <div class="featured-content">
           <p class="featured-label">Latest</p>
+          {(featuredPost.data as any).category && <p class="card-category">{(featuredPost.data as any).category}</p>}
           <h2 class="featured-title">{featuredPost.data.title}</h2>
           <p class="featured-excerpt">{excerpt(featuredPost.body || '', 200)}</p>
           <div class="post-meta">
@@ -219,12 +329,13 @@ function formatDate(d: Date): string {
       </a>
     )}
 
-    <div class="post-grid">
+    <div class="post-grid" id="post-grid">
       {gridPosts.map(post => (
-        <a href={`/blog/${post.id}`} class="post-card">
+        <a href={`/blog/${postSlug(post)}`} class="post-card" data-category={(post.data as any).category ?? ''}>
           <div class="card-image">
             <img src={`/images/blog/${post.id}.svg`} alt={post.data.title} loading="lazy" />
           </div>
+          {(post.data as any).category && <p class="card-category">{(post.data as any).category}</p>}
           <h2 class="card-title">{post.data.title}</h2>
           <p class="card-excerpt">{excerpt(post.body || '')}</p>
           <div class="post-meta">
@@ -236,7 +347,7 @@ function formatDate(d: Date): string {
       ))}
     </div>
 
-    <nav class="pagination" aria-label="Pagination">
+    <nav class="pagination" aria-label="Pagination" id="pagination">
       <span class="page-btn active">1</span>
       {Array.from({ length: Math.min(totalPages - 1, 6) }, (_, i) => i + 2).map(p => (
         <a href={`/blog/page/${p}`} class="page-btn">{p}</a>
@@ -250,4 +361,44 @@ function formatDate(d: Date): string {
     </nav>
   </div>
 </div>
+
+<script>
+  const filterBtns = document.querySelectorAll('.filter-btn');
+  const postCards = document.querySelectorAll('.post-card');
+  const featuredPost = document.querySelector('.featured-post') as HTMLElement | null;
+  const pagination = document.getElementById('pagination');
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      filterBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const category = (btn as HTMLElement).dataset.category || 'All';
+
+      postCards.forEach(card => {
+        const cardEl = card as HTMLElement;
+        const cardCat = cardEl.dataset.category || '';
+        if (category === 'All' || cardCat === category) {
+          cardEl.classList.remove('hidden');
+        } else {
+          cardEl.classList.add('hidden');
+        }
+      });
+
+      // Handle featured post
+      if (featuredPost) {
+        const featCat = featuredPost.dataset.category || '';
+        if (category === 'All' || featCat === category) {
+          featuredPost.classList.remove('hidden');
+        } else {
+          featuredPost.classList.add('hidden');
+        }
+      }
+
+      // Hide pagination when filtering
+      if (pagination) {
+        pagination.style.display = category === 'All' ? '' : 'none';
+      }
+    });
+  });
+</script>
 </Layout>

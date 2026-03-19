@@ -1,6 +1,7 @@
 ---
 title: "AutoGPT Is Here — And It Might Be the Most Important AI Development Since ChatGPT Itself"
 date: 2023-04-11
+category: "AI Tools & Products"
 ---
 
 I've been thinking about AI tools for a few months now — building websites, testing chatbots, watching the cost curve drop. But what I'm looking at this week feels like a genuine inflection point. It's called AutoGPT, and if you haven't heard of it yet, you will.

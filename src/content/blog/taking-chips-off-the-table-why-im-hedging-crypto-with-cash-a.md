@@ -1,6 +1,7 @@
 ---
 title: "Taking Chips Off the Table: Why I'm Hedging Crypto With Cash and Yield Farms"
 date: 2021-08-27
+category: "Crypto & DeFi"
 ---
 
 ## The Rally Feels Good — But I've Seen This Before

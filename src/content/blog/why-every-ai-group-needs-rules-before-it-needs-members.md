@@ -1,6 +1,7 @@
 ---
 title: "Why Every AI Group Needs Rules Before It Needs Members"
 date: 2024-12-18
+category: "AI Strategy"
 ---
 
 I've been thinking a lot about how we share information in the AI space — and more specifically, how we do it BADLY.

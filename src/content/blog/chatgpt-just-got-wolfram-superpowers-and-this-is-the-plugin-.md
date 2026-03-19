@@ -1,6 +1,8 @@
 ---
 title: "ChatGPT Just Got Wolfram Superpowers — And This Is the Plugin That Actually Matters"
 date: 2023-04-12
+category: "AI Tools & Products"
+slug: "chatgpt-just-got-wolfram-superpowers-and-this-is-the-plugin-that-actually-matters"
 ---
 
 I've been watching the ChatGPT plugin rollout with a mix of excitement and impatience — I applied for access weeks ago and I'm still waiting. But even from the outside looking in, one integration stands out as genuinely significant: Wolfram Alpha.

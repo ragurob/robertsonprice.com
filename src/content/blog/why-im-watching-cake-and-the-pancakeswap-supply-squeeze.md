@@ -1,6 +1,7 @@
 ---
 title: "Why I'm Watching CAKE and the PancakeSwap Supply Squeeze"
 date: 2021-08-10
+category: "Crypto & DeFi"
 ---
 
 I've been pretty deep in the DeFi weeds lately, and there's one thing that keeps pulling my attention back — CAKE and what's about to happen with PancakeSwap's token supply.

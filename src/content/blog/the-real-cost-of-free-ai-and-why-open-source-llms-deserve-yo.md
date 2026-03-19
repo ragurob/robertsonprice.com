@@ -1,6 +1,7 @@
 ---
 title: "The Real Cost of \"Free\" AI — And Why Open Source LLMs Deserve Your Attention"
 date: 2023-10-27
+category: "AI Infrastructure"
 ---
 
 I've been thinking about something that's bugging me, and I think it's worth saying out loud: if you're still using ChatGPT without a paid subscription, you're getting third-tier AI results and you might not even realize it.

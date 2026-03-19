@@ -1,6 +1,8 @@
 ---
 title: "Can AI Actually Beat the Quants at Sentiment Analysis? Maybe — But Not How You Think"
 date: 2023-07-27
+category: "AI Tools & Products"
+slug: "can-ai-actually-beat-the-quants-at-sentiment-analysis-maybe-but-not-how-you-think"
 ---
 
 I've been thinking a lot about where AI fits into the trading world — specifically, whether large language models can actually compete with quantitative analysts when it comes to parsing financial documents for alpha. The short answer? It's complicated. And the people who think it's simple are probably wrong in both directions.

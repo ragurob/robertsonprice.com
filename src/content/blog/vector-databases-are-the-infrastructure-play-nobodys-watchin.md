@@ -1,6 +1,7 @@
 ---
 title: "Vector Databases Are the Infrastructure Play Nobody's Watching"
 date: 2023-06-19
+category: "AI Infrastructure"
 ---
 
 I've been spending a lot of time thinking about the infrastructure layer beneath all these AI applications everyone's building. And this week, something clicked for me: the vector database market is about to become one of the most consequential — and most confusing — decisions in the AI stack.

@@ -21,6 +21,23 @@
       ],
       "destination": "https://robertsonprice.com/$1",
       "permanent": true
-    }
+    },
+    { "source": "/blog/ai-chatbots-are-about-to-break-the-internets-business-model-", "destination": "/blog/ai-chatbots-are-about-to-break-the-internets-business-model-heres-what-comes-next", "permanent": true },
+    { "source": "/blog/autogpt-just-asked-me-for-my-credit-card-and-thats-a-bigger-", "destination": "/blog/autogpt-just-asked-me-for-my-credit-card-and-thats-a-bigger-deal-than-you-think", "permanent": true },
+    { "source": "/blog/bitcoin-below-30k-fibonacci-levels-and-why-im-trading-short-", "destination": "/blog/bitcoin-below-30k-fibonacci-levels-and-why-im-trading-short-term", "permanent": true },
+    { "source": "/blog/buying-all-the-way-down-why-im-still-accumulating-crypto-in-", "destination": "/blog/buying-all-the-way-down-why-im-still-accumulating-crypto-in-a-bleeding-market", "permanent": true },
+    { "source": "/blog/can-ai-actually-beat-the-quants-at-sentiment-analysis-maybe-", "destination": "/blog/can-ai-actually-beat-the-quants-at-sentiment-analysis-maybe-but-not-how-you-think", "permanent": true },
+    { "source": "/blog/chatgpt-just-got-wolfram-superpowers-and-this-is-the-plugin-", "destination": "/blog/chatgpt-just-got-wolfram-superpowers-and-this-is-the-plugin-that-actually-matters", "permanent": true },
+    { "source": "/blog/crypto-technical-levels-whale-algos-and-why-im-watching-eth-", "destination": "/blog/crypto-technical-levels-whale-algos-and-why-im-watching-eth-right-now", "permanent": true },
+    { "source": "/blog/el-salvador-reddit-pumps-and-why-this-fall-is-going-to-mint-", "destination": "/blog/el-salvador-reddit-pumps-and-why-this-fall-is-going-to-mint-people", "permanent": true },
+    { "source": "/blog/elon-musk-just-broke-up-with-bitcoin-the-price-action-since-", "destination": "/blog/elon-musk-just-broke-up-with-bitcoin-the-price-action-since-is-wild", "permanent": true },
+    { "source": "/blog/pancakebunny-just-got-exploited-for-200m-and-i-think-theres-", "destination": "/blog/pancakebunny-just-got-exploited-for-200m-and-i-think-theres-an-opportunity", "permanent": true },
+    { "source": "/blog/the-best-defi-portfolio-trackers-and-where-im-putting-money-", "destination": "/blog/the-best-defi-portfolio-trackers-and-where-im-putting-money-right-now", "permanent": true },
+    { "source": "/blog/the-hidden-leverage-problem-in-defi-could-trigger-a-cascade-", "destination": "/blog/the-hidden-leverage-problem-in-defi-could-trigger-a-cascade-nobody-sees-coming", "permanent": true },
+    { "source": "/blog/the-intermediate-observer-layer-why-your-ai-needs-a-manager-", "destination": "/blog/the-intermediate-observer-layer-why-your-ai-needs-a-manager-before-it-needs", "permanent": true },
+    { "source": "/blog/the-walmart-litecoin-fiasco-what-a-fake-press-release-tells-", "destination": "/blog/the-walmart-litecoin-fiasco-what-a-fake-press-release-tells-us-about-crypto", "permanent": true },
+    { "source": "/blog/this-wordpress-chatbot-plugin-uses-your-own-content-and-its-", "destination": "/blog/this-wordpress-chatbot-plugin-uses-your-own-content-and-its-a-glimpse-of-whats", "permanent": true },
+    { "source": "/blog/why-im-moving-from-binance-smart-chain-to-solana-fantom-and-", "destination": "/blog/why-im-moving-from-binance-smart-chain-to-solana-fantom-and-the-next-wave-of-defi", "permanent": true },
+    { "source": "/blog/why-the-future-of-ai-isnt-one-model-its-all-of-them-working-", "destination": "/blog/why-the-future-of-ai-isnt-one-model-its-all-of-them-working-together", "permanent": true }
   ]
 }

@@ -42,7 +42,7 @@ function formatDate(d: Date): string {
 
 const pageNum = Number(page);
 ---
-<Layout title={`Writing — Page ${page} — Robertson Price`} description="Notes on AI, building companies, and what happens at the frontier.">
+<Layout title={`Dispatches — Page ${page} — Robertson Price`} description="Notes on AI, building companies, and what happens at the frontier.">
 <style>
   .blog-page {
     padding-top: calc(80px + var(--section-gap));
@@ -148,13 +148,13 @@ const pageNum = Number(page);
 <div class="blog-page">
   <div class="container">
     <div class="blog-header">
-      <h1>Writing</h1>
+      <h1>Dispatches</h1>
       <p class="page-indicator">Page {page} of {totalPages}</p>
     </div>
 
     <div class="post-grid">
       {pagePosts.map((post: any) => (
-        <a href={`/blog/${post.id}`} class="post-card">
+        <a href={`/blog/${post.data.slug ?? post.id}`} class="post-card">
           <div class="card-image">
             <img src={`/images/blog/${post.id}.svg`} alt={post.data.title} loading="lazy" />
           </div>

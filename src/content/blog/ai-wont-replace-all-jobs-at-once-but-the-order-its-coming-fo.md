@@ -1,6 +1,7 @@
 ---
 title: "AI Won't Replace All Jobs at Once — But the Order It's Coming for Them Should Wake You Up"
 date: 2023-05-28
+category: "AI Strategy"
 ---
 
 I've been thinking a lot this week about the sequencing of what AI replaces — and I think most people are getting it wrong.

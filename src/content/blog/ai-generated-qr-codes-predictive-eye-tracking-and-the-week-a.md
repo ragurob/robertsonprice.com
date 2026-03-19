@@ -1,6 +1,7 @@
 ---
 title: "AI-Generated QR Codes, Predictive Eye Tracking, and the Week AI Got Weird"
 date: 2023-06-06
+category: "AI Tools & Products"
 ---
 
 I've been watching AI developments pretty closely for a while now, and this week might be one of the strangest in terms of sheer range. We've got QR codes that look like Renaissance paintings, a startup claiming a 5 million token context window, and — buried in a thread that deserves way more attention — evidence that AI can predict you're going to click something *before you actually do it* by reading your pupils.

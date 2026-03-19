@@ -1,6 +1,7 @@
 ---
 title: "Gaming Tokens Are on Fire Right Now — And I Think Play-to-Earn Is Just Getting Started"
 date: 2021-07-28
+category: "Crypto & DeFi"
 ---
 
 I've been watching crypto markets long enough to know when something shifts from "interesting experiment" to "genuine trend." And right now, gaming DeFi tokens are absolutely on fire.

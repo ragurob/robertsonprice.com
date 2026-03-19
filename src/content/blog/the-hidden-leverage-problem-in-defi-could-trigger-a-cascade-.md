@@ -1,6 +1,8 @@
 ---
 title: "The Hidden Leverage Problem in DeFi Could Trigger a Cascade Nobody Sees Coming"
 date: 2021-09-21
+category: "Crypto & DeFi"
+slug: "the-hidden-leverage-problem-in-defi-could-trigger-a-cascade-nobody-sees-coming"
 ---
 
 I'm not normally one to freak out about market dips. Dips happen. You plan for them, you manage your risk, and you move on. But what's happening right now has me genuinely uneasy — and it's not the price action itself that worries me. It's what's sitting underneath it that nobody's talking about.

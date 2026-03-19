@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT Can Now Browse, Shop, and Act on Your Behalf — And the Speed Is Terrifying"
 date: 2023-03-24
+category: "AI Tools & Products"
 ---
 
 I've been thinking about AI moving fast for weeks now. I've talked about building websites with it, about the cost curve dropping, about chatbots that use your own content. But I have to be honest — this week caught me off guard.

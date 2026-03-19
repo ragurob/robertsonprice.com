@@ -1,6 +1,8 @@
 ---
 title: "Bitcoin Below $30K, Fibonacci Levels, and Why I'm Trading Short-Term"
 date: 2021-06-22
+category: "Crypto & DeFi"
+slug: "bitcoin-below-30k-fibonacci-levels-and-why-im-trading-short-term"
 ---
 
 The crypto market is testing everyone's resolve right now. Bitcoin dropped below $30K to six-month lows this week, and if you've been following my posts over the past couple of months, you know I've been increasingly cautious about the macro backdrop since China's crackdown started feeling real.

@@ -1,6 +1,7 @@
 ---
 title: "The Market Feels Calm — And I Think That's a Signal to Start Pushing Chips Back In"
 date: 2021-07-02
+category: "Crypto & DeFi"
 ---
 
 ## A Quiet Friday Before the Fourth

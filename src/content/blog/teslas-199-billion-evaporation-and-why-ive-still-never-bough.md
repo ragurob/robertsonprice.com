@@ -1,6 +1,7 @@
 ---
 title: "Tesla's $199 Billion Evaporation and Why I've Still Never Bought In"
 date: 2021-11-10
+category: "Crypto & DeFi"
 ---
 
 I've watched Tesla for years. Genuinely admired what they've built. And I've never bought a single share.

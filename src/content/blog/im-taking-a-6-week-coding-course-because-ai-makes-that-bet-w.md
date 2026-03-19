@@ -1,6 +1,7 @@
 ---
 title: "I'm Taking a 6-Week Coding Course Because AI Makes That Bet Worth It"
 date: 2023-02-07
+category: "Building & Shipping"
 ---
 
 I've been watching the AI space closely for months — image generators, detection tools, avatars, all of it. But something clicked this week that I haven't been able to shake.

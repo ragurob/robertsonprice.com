@@ -1,6 +1,7 @@
 ---
 title: "How to Tell If You're Talking to a Bot — New AI Detection Tools Are Finally Here"
 date: 2023-01-10
+category: "AI Tools & Products"
 ---
 
 The Wall Street Journal just ran a piece this week on new tools designed to help people figure out whether they're interacting with a human or an AI. And honestly, it's about time.

@@ -1,6 +1,7 @@
 ---
 title: "GitHub Says 52% of Code Is AI-Generated — Why the Jump to 92% Should Worry You"
 date: 2023-03-30
+category: "Building & Shipping"
 ---
 
 I've been watching the AI coding space pretty closely — it's been a running theme in what I write about — and this week a stat landed that I think deserves more attention than it's getting.

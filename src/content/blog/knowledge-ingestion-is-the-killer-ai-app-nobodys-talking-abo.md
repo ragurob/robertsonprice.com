@@ -1,6 +1,7 @@
 ---
 title: "Knowledge Ingestion Is the Killer AI App Nobody's Talking About"
 date: 2023-05-09
+category: "AI Infrastructure"
 ---
 
 ## The Video That Rewired My Thinking

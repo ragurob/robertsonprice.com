@@ -1,6 +1,7 @@
 ---
 title: "My Conservative Crypto Bot Strategy: How Buying the Dip on Autopilot Averages 0.3% Daily"
 date: 2021-02-03
+category: "Crypto & DeFi"
 ---
 
 ## The Case for a "Set It and Forget It" Crypto Bot

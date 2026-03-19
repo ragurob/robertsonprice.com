@@ -1,6 +1,7 @@
 ---
 title: "Evergrande, Tether, and the Storm in a Teacup That Could Spill Over"
 date: 2021-09-22
+category: "Crypto & DeFi"
 ---
 
 This week's been a wild ride. Markets tanked on Monday — crypto and stocks alike — and the word on everyone's lips is Evergrande. A Chinese real estate giant sitting on roughly $300 billion in debt, teetering on the edge of default. The question I keep coming back to isn't whether China will intervene. It's what the ripple effects look like for crypto if things get messy.

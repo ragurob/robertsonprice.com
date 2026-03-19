@@ -1,6 +1,7 @@
 ---
 title: "DeFi Yield Strategy: Why I'm 90% In and How I Think About Impermanent Loss"
 date: 2021-09-03
+category: "Crypto & DeFi"
 ---
 
 I've been pretty deep in DeFi for a while now, and I want to break down how I'm actually allocating and why I think the math works — even when people hear "impermanent loss" and run for the hills.

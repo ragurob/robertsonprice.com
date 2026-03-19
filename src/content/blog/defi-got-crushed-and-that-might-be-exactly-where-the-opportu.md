@@ -1,6 +1,7 @@
 ---
 title: "DeFi Got Crushed — And That Might Be Exactly Where the Opportunity Is"
 date: 2021-05-24
+category: "Crypto & DeFi"
 ---
 
 The market's showing signs of life again this week, and I've gotta say — it's a relief. After the bloodbath we just lived through, all I'm really hoping for is a return to some semblance of normality. Where a guy can make his 1% per day of free money without a 60% drop in asset values messing it all up.

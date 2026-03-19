@@ -1,6 +1,7 @@
 ---
 title: "The NuCypher Arbitrage Window: What Coinbase's Price Gap Really Reveals"
 date: 2021-10-15
+category: "Crypto & DeFi"
 ---
 
 I've been trading NU (NuCypher) for months now. It's been a great penny stock — the kind of token that reliably trades up and down all day long, letting you clip 1% daily if you're paying attention. Pretty mechanical, pretty predictable. That era might be over now, though, because something wild just happened that says a lot about how fragile crypto exchange infrastructure really is.

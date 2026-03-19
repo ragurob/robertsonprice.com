@@ -1,6 +1,7 @@
 ---
 title: "AutoGPT Just Built Visualizations on Its Own — Now I Want to Publish It"
 date: 2023-04-14
+category: "AI Tools & Products"
 ---
 
 I've been running an AutoGPT experiment for a while now — tasking it with building a global museum index from scratch. I was talking about the initial run previously, and honestly, I expected the project to stall out after the first burst of data collection. Most AI experiments do. You get the dopamine hit of "wow, it actually did something," and then reality sets in when you realize the output is a mess.

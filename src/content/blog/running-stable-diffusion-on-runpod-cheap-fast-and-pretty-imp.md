@@ -1,6 +1,7 @@
 ---
 title: "Running Stable Diffusion on RunPod: Cheap, Fast, and Pretty Impressive"
 date: 2022-12-16
+category: "AI Tools & Products"
 ---
 
 ## The AI Image Generation Moment Is Here

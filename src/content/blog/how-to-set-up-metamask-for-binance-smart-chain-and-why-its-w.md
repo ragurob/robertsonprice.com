@@ -1,6 +1,7 @@
 ---
 title: "How to Set Up MetaMask for Binance Smart Chain (And Why It's Worth the Hassle)"
 date: 2021-08-22
+category: "Crypto & DeFi"
 ---
 
 I've been spending more time in DeFi lately, and one thing keeps coming up — people want to get into tokens on BSC but they hit a wall when it comes to actually setting up their wallet. So I figured I'd walk through the process, because once you get past the initial 60 minutes of frustration, the whole ecosystem opens up.

@@ -1,6 +1,7 @@
 ---
 title: "The Second Wave: Why Smart AI Entrepreneurs Are Building Boring Businesses"
 date: 2023-10-30
+category: "AI Strategy"
 ---
 
 I've been watching the AI startup landscape pretty closely for the past year and a half, and I think we're entering a fundamentally different phase for entrepreneurs. The first wave was chaotic, exciting, and — for most people who jumped in — a graveyard of good ideas that got steamrolled by the platforms they were built on.

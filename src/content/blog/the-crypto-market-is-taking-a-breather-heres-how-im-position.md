@@ -1,6 +1,7 @@
 ---
 title: "The Crypto Market Is Taking a Breather — Here's How I'm Positioning My Bots"
 date: 2021-02-11
+category: "Crypto & DeFi"
 ---
 
 If you've been watching the charts this week, you've probably noticed something unusual: calm. After the wild swings we saw over the past couple of weeks, the entire market has settled down considerably. Not much volatility anywhere. It feels like everyone — traders, bots, institutions — is collectively taking a breather.

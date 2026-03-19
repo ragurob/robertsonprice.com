@@ -1,6 +1,7 @@
 ---
 title: "Metaverse Land Is Not Real Estate — It's a Marketing Gimmick"
 date: 2021-11-11
+category: "Crypto & DeFi"
 ---
 
 I've been watching the metaverse land rush with a mix of fascination and genuine concern. People are piling into virtual "London" and virtual "Manhattan" like they're getting in early on actual property — and I think most of them are making a fundamental mistake.

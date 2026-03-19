@@ -1,6 +1,7 @@
 ---
 title: "China's Crypto Crackdown Is Back — And This Time It Feels Different"
 date: 2021-05-21
+category: "Crypto & DeFi"
 ---
 
 The headline hit today like a sledgehammer: **CHINA REITERATES CALL FOR CRACKDOWN ON BITCOIN MINING, TRADING.** And look — it's not like we haven't seen this movie before. China has been "banning" crypto in some form since 2017. But I'm going to be honest with you.. this time it feels different.

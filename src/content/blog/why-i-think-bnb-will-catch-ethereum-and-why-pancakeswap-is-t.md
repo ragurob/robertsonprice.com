@@ -1,6 +1,7 @@
 ---
 title: "Why I Think BNB Will Catch Ethereum — And Why PancakeSwap Is the Key"
 date: 2021-04-27
+category: "Crypto & DeFi"
 ---
 
 If you've been following my portfolio updates, you know I've been heavily favoring altcoins over Bitcoin this year. That thesis is playing out better than I expected. But there's one coin I want to talk about specifically today, because I think it's the most undervalued major asset in crypto right now: BNB.

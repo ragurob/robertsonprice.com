@@ -1,6 +1,7 @@
 ---
 title: "Coinbase IPO Day, a Flash Crash, and Why Your Bot's Numbers Might Be Lying"
 date: 2021-04-14
+category: "Crypto & DeFi"
 ---
 
 Today's a big day for crypto. Coinbase is going public, and I've been watching the market react in real time. But instead of writing about the IPO itself — every crypto blog on the planet is doing that — I want to talk about what's actually happening in the market around it, and a painful lesson I've learned about trusting the wrong number on your trading dashboard.

@@ -1,6 +1,7 @@
 ---
 title: "Why Discord Is the New Essential Platform for Crypto — And You Should Learn It Now"
 date: 2021-11-04
+category: "Crypto & DeFi"
 ---
 
 I've been deep in crypto communities for a while now, and if there's one thing that's become crystal clear to me lately, it's this: Discord is where it's all happening. If you're not on it yet, you're missing the conversation — and probably missing money too.

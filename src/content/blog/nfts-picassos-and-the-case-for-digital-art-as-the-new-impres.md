@@ -1,6 +1,7 @@
 ---
 title: "NFTs, Picassos, and the Case for Digital Art as the New Impressionism"
 date: 2022-01-05
+category: "Crypto & DeFi"
 ---
 
 I've been thinking a lot about NFTs lately — not the hype, not the floor prices, not the Twitter drama — but the actual *thesis* behind digital art as an asset class. And I think most of the skeptics are getting it wrong.

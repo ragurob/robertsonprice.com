@@ -1,6 +1,7 @@
 ---
 title: "Real-Time AI Content That Watches You Back — The Missing Piece in Generative Media"
 date: 2023-06-08
+category: "AI Infrastructure"
 ---
 
 Runway Gen2 dropped this week, and I've been playing with it all morning. I generated a pretty fantastic little video from nothing but a text prompt — and if you haven't tried it yet, you should. It's stunning what's possible right now in mid-2023.

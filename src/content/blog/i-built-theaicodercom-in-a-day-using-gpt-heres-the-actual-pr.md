@@ -1,6 +1,7 @@
 ---
 title: "I Built TheAICoder.com in a Day Using GPT — Here's the Actual Process"
 date: 2023-02-08
+category: "Building & Shipping"
 ---
 
 **Date: 2023-02-08**

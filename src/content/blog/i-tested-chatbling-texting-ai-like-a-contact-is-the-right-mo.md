@@ -1,6 +1,7 @@
 ---
 title: "I Tested ChatBling — Texting AI Like a Contact Is the Right Move"
 date: 2023-04-10
+category: "AI Tools & Products"
 ---
 
 There's a service called ChatBling that puts an AI assistant in your phone contacts. No app download. No browser tab. No login screen. You add a number, you start texting, and it talks back.

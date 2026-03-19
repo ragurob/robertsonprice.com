@@ -1,6 +1,7 @@
 ---
 title: "Claude Cowork Is a Big Step — But It Still Feels Handcuffed"
 date: 2026-03-18
+category: "AI Tools & Products"
 ---
 
 Inching closer to OpenClaw.

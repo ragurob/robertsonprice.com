@@ -1,6 +1,7 @@
 ---
 title: "ChatGPT Now Does Text AND Images — And Getting Access Just Got Way Easier"
 date: 2023-01-05
+category: "AI Tools & Products"
 ---
 
 I've been thinking about AI-generated art and images for a few months now. First it was the music and art explosion, then my deep dive into AI image generators, and most recently the thorny question of AI-generated adult content. But here's the thing that kept bugging me through all of it — actually USING these tools was still a pain for most people.

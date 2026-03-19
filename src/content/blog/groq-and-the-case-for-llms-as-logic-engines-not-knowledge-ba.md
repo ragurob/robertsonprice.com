@@ -1,6 +1,7 @@
 ---
 title: "Groq and the Case for LLMs as Logic Engines, Not Knowledge Bases"
 date: 2024-03-02
+category: "AI Tools & Products"
 ---
 
 I just spent some time with [Groq.com](https://groq.com) and — wow. Maybe I'm late to the game here, but this is pretty incredible. We're talking LLM response times in milliseconds. Not seconds. Milliseconds.

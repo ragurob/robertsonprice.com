@@ -1,6 +1,7 @@
 ---
 title: "How I Quadrupled My Crypto Portfolio in 30 Days — My Altcoin Rules"
 date: 2021-02-13
+category: "Crypto & DeFi"
 ---
 
 I've been pretty open about my bot trading strategy in previous posts. Conservative, automated, buy-the-dip, compound the gains. What I haven't talked much about is what's been happening on the altcoin side — and honestly, the numbers this month have been a bit ridiculous.

@@ -1,6 +1,7 @@
 ---
 title: "AI Avatars Are Getting Scary Good — And Way Faster Than Anyone Expected"
 date: 2023-01-24
+category: "AI Tools & Products"
 ---
 
 I've been following AI pretty closely over the past few months — from image generators to ChatGPT to detection tools — and I thought I had a decent handle on how fast things were moving. Then I watched a demo this week that genuinely caught me off guard.

@@ -1,6 +1,7 @@
 ---
 title: "Google Bard Is Actually Pretty Good at One Thing — And It's Not What You'd Expect"
 date: 2023-03-22
+category: "AI Tools & Products"
 ---
 
 I've been spending a lot of time with Bard over the last couple of weeks, and I have to say — my initial take was wrong.

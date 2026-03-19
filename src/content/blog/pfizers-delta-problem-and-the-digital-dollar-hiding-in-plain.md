@@ -1,6 +1,7 @@
 ---
 title: "Pfizer's Delta Problem and the Digital Dollar Hiding in Plain Sight"
 date: 2021-07-26
+category: "Crypto & DeFi"
 ---
 
 Two things caught my attention this week that I think are worth unpacking — one in public health, one in crypto. They're not obviously connected, but they both share a theme: the narrative most people are running on is already outdated.

@@ -59,7 +59,46 @@ const { title, description = "Robertson Price is a serial founder and CEO who ha
     .nav-links { display: flex; gap: 32px; list-style: none; }
     .nav-links a { font-size: 0.85rem; font-weight: 400; color: var(--color-text-secondary); transition: color 0.2s ease; letter-spacing: 0.01em; }
     .nav-links a:hover { color: var(--color-text); }
-    .nav-mobile-toggle { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+
+    /* HAMBURGER */
+    .nav-mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 6px;
+      z-index: 201;
+      position: relative;
+    }
+    .hamburger-icon { display: flex; flex-direction: column; gap: 5px; width: 22px; }
+    .hamburger-icon span { display: block; height: 1.5px; width: 100%; background: var(--color-text); transition: all 0.3s ease; }
+    .nav-mobile-toggle.open .hamburger-icon span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .nav-mobile-toggle.open .hamburger-icon span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .nav-mobile-toggle.open .hamburger-icon span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+    /* MOBILE MENU */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: var(--color-bg);
+      z-index: 150;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 36px;
+      padding: 80px 40px 40px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: var(--font-serif);
+      font-size: clamp(1.6rem, 5vw, 2rem);
+      font-weight: 400;
+      color: var(--color-text);
+      letter-spacing: -0.02em;
+      transition: opacity 0.2s ease;
+    }
+    .mobile-menu a:hover { opacity: 0.6; }
 
     /* FOOTER */
     footer { border-top: 1px solid var(--color-border-light); padding: 32px 0; }
@@ -77,9 +116,9 @@ const { title, description = "Robertson Price is a serial founder and CEO who ha
     .subtle-link { border-bottom: 1px solid var(--color-border); padding-bottom: 1px; transition: border-color 0.2s ease; }
     .subtle-link:hover { border-color: var(--color-text); }
 
-    @media (max-width: 640px) {
-      .nav-links { gap: 20px; }
-      .nav-links a { font-size: 0.8rem; }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .nav-mobile-toggle { display: flex; }
     }
   </style>
 </head>
@@ -89,20 +128,35 @@ const { title, description = "Robertson Price is a serial founder and CEO who ha
       <a href="/" class="nav-name">Robertson Price</a>
       <ul class="nav-links">
         <li><a href="/#trajectory">Background</a></li>
-        <li><a href="/#advisory">Advisory</a></li>
+        <li><a href="/advisory">Advisory</a></li>
         <li><a href="/#ventures">Ventures</a></li>
-        <li><a href="/blog">Writing</a></li>
+        <li><a href="/blog">Dispatches</a></li>
         <li><a href="/#contact">Contact</a></li>
       </ul>
+      <button class="nav-mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+        <div class="hamburger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
     </div>
   </nav>
+
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="/#trajectory" class="mobile-nav-link">Background</a>
+    <a href="/advisory" class="mobile-nav-link">Advisory</a>
+    <a href="/#ventures" class="mobile-nav-link">Ventures</a>
+    <a href="/blog" class="mobile-nav-link">Dispatches</a>
+    <a href="/#contact" class="mobile-nav-link">Contact</a>
+  </div>
 
   <slot />
 
   <footer>
     <div class="container">
       <span class="footer-left">&copy; 2026 Robertson Price</span>
-      <span class="footer-right">New York City</span>
+      <span class="footer-right">Miami, FL</span>
     </div>
   </footer>
 
@@ -113,6 +167,26 @@ const { title, description = "Robertson Price is a serial founder and CEO who ha
         nav.classList.toggle('scrolled', window.scrollY > 40);
       });
     }
+
+    // Mobile menu toggle
+    const toggle = document.getElementById('mobile-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (toggle && mobileMenu) {
+      toggle.addEventListener('click', () => {
+        const isOpen = mobileMenu.classList.toggle('open');
+        toggle.classList.toggle('open', isOpen);
+        document.body.style.overflow = isOpen ? 'hidden' : '';
+      });
+      // Close on link click
+      mobileMenu.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.remove('open');
+          toggle.classList.remove('open');
+          document.body.style.overflow = '';
+        });
+      });
+    }
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('visible');

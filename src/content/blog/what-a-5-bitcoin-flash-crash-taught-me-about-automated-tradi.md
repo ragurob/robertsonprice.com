@@ -1,6 +1,7 @@
 ---
 title: "What a 5% Bitcoin Flash Crash Taught Me About Automated Trading"
 date: 2021-01-07
+category: "Crypto & DeFi"
 ---
 
 ## The Setup

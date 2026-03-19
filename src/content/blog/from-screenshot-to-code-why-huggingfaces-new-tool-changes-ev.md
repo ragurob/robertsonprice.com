@@ -1,6 +1,7 @@
 ---
 title: "From Screenshot to Code: Why HuggingFace's New Tool Changes Everything"
 date: 2024-01-25
+category: "AI Tools & Products"
 ---
 
 I've been watching the AI-to-code space pretty closely, and this week something dropped that I think deserves more attention than it's getting.

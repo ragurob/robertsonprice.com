@@ -1,6 +1,7 @@
 ---
 title: "Leveraged Yield Farming on Alpaca Finance — Why I Think This Is DeFi's Best Kept Secret"
 date: 2021-07-30
+category: "Crypto & DeFi"
 ---
 
 I've been pretty deep in DeFi for the last few months, and I keep coming back to one thing — leveraged yield farming on Alpaca Finance might be the most compelling risk/reward setup in crypto right now.

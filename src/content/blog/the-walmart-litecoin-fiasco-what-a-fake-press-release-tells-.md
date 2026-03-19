@@ -1,6 +1,8 @@
 ---
 title: "The Walmart-Litecoin Fiasco: What a Fake Press Release Tells Us About Crypto Markets"
 date: 2021-09-13
+category: "Crypto & DeFi"
+slug: "the-walmart-litecoin-fiasco-what-a-fake-press-release-tells-us-about-crypto"
 ---
 
 Wow - what a day.

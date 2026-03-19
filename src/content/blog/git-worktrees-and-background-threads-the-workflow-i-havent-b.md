@@ -1,6 +1,7 @@
 ---
 title: "Git Worktrees and Background Threads: The Workflow I Haven't Built Yet"
 date: 2026-02-06
+category: "Building & Shipping"
 ---
 
 I've been paying closer attention to how AI coding tools are evolving their workflow patterns, and there's one concept that keeps coming up that I haven't properly integrated into my own setup: git worktrees.

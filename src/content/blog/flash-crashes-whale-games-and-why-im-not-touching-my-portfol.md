@@ -1,6 +1,7 @@
 ---
 title: "Flash Crashes, Whale Games, and Why I'm Not Touching My Portfolio"
 date: 2021-08-16
+category: "Crypto & DeFi"
 ---
 
 I woke up this morning to a sea of red across my crypto dashboard. ETH, BTC, BNB, XRP — all taking a dump at the same time. If you've been in crypto for more than a few months, you know the feeling. That brief moment where your stomach drops before your brain catches up.
